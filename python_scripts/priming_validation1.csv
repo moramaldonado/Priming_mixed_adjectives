@@ -1,0 +1,104 @@
+prime1 , C , The instruments are loud. , instruments_1.png , instruments_01.png , matching , matching
+prime2 , C , The birds are loud. , birds_01.png , birds_1.png , matching , matching
+target , C , The instruments are loud. , hidden-instruments.png , instruments_01.png , matching , matching
+prime1 , C , The watches are expensive. , watches_1.png , watches_01.png , mismatching , matching
+prime2 , C , The cars are expensive. , cars_01.png , cars_1.png , mismatching , matching
+target , C , The instruments are loud. , hidden-instruments.png , instruments_01.png , mismatching , matching
+prime1 , C , The watches are expensive. , watches_1.png , watches_01.png , matching , mismatching
+prime2 , C , The cars are expensive. , cars_01.png , cars_1.png , matching , mismatching
+target , C , The watches are expensive. , watches_01.png , hidden-watches.png , matching , mismatching
+prime1 , C , The cars are expensive. , cars_01.png , cars_1.png , mismatching , mismatching
+prime2 , C , The watches are expensive. , watches_1.png , watches_01.png , mismatching , mismatching
+target , C , The birds are loud. , hidden-birds.png , birds_01.png , mismatching , mismatching
+prime1 , C , The birds are loud. , birds_1.png , birds_01.png , matching , matching
+prime2 , C , The instruments are loud. , instruments_01.png , instruments_1.png , matching , matching
+target , D , The birds are quiet. , hidden-birds.png , birds_01.png , matching , matching
+prime1 , C , The watches are expensive. , watches_01.png , watches_1.png , mismatching , matching
+prime2 , C , The cars are expensive. , cars_1.png , cars_01.png , mismatching , matching
+target , D , The books are light. , books_01.png , hidden-books.png , mismatching , matching
+prime1 , C , The birds are loud. , birds_1.png , birds_01.png , matching , mismatching
+prime2 , C , The instruments are loud. , instruments_01.png , instruments_1.png , matching , mismatching
+target , D , The birds are quiet. , birds_01.png , hidden-birds.png , matching , mismatching
+prime1 , C , The watches are expensive. , watches_01.png , watches_1.png , mismatching , mismatching
+prime2 , C , The cars are expensive. , cars_1.png , cars_01.png , mismatching , mismatching
+target , D , The birds are quiet. , hidden-birds.png , birds_01.png , mismatching , mismatching
+prime1 , D , The instruments are quiet. , instruments_01.png , instruments_0.png , matching , matching
+prime2 , D , The birds are quiet. , birds_0.png , birds_01.png , matching , matching
+target , C , The instruments are loud. , instruments_01.png , hidden-instruments.png , matching , matching
+prime1 , D , The books are light. , books_0.png , books_01.png , mismatching , matching
+prime2 , D , The bags are light. , bags_01.png , bags_0.png , mismatching , matching
+target , C , The birds are loud. , hidden-birds.png , birds_01.png , mismatching , matching
+prime1 , D , The cars are cheap. , cars_01.png , cars_0.png , matching , mismatching
+prime2 , D , The watches are cheap. , watches_0.png , watches_01.png , matching , mismatching
+target , C , The cars are expensive. , hidden-cars.png , cars_01.png , matching , mismatching
+prime1 , D , The books are light. , books_0.png , books_01.png , mismatching , mismatching
+prime2 , D , The bags are light. , bags_01.png , bags_0.png , mismatching , mismatching
+target , C , The cars are expensive. , cars_01.png , hidden-cars.png , mismatching , mismatching
+prime1 , D , The instruments are quiet. , instruments_0.png , instruments_01.png , matching , matching
+prime2 , D , The birds are quiet. , birds_01.png , birds_0.png , matching , matching
+target , D , The instruments are quiet. , hidden-instruments.png , instruments_01.png , matching , matching
+prime1 , D , The cars are cheap. , cars_0.png , cars_01.png , mismatching , matching
+prime2 , D , The watches are cheap. , watches_01.png , watches_0.png , mismatching , matching
+target , D , The birds are quiet. , hidden-birds.png , birds_01.png , mismatching , matching
+prime1 , D , The cars are cheap. , cars_0.png , cars_01.png , matching , mismatching
+prime2 , D , The watches are cheap. , watches_01.png , watches_0.png , matching , mismatching
+target , D , The cars are cheap. , cars_01.png , hidden-cars.png , matching , mismatching
+prime1 , D , The watches are cheap. , watches_0.png , watches_01.png , mismatching , mismatching
+prime2 , D , The cars are cheap. , cars_01.png , cars_0.png , mismatching , mismatching
+target , D , The books are light. , books_01.png , hidden-books.png , mismatching , mismatching
+prime1 , Baseline-the , The book is heavy. , every_1.png , book_0.png , matching , matching
+prime2 , Baseline-the , The watch is heavy. , watch_0.png , every_1.png , matching , matching
+target , C , The bags are heavy. , hidden-bags.png , bags_01.png , matching , matching
+prime1 , Baseline-only , Only the trumpet is loud. , trumpet_0.png , every_noise_0.png , mismatching , matching
+prime2 , Baseline-only , Only the bird is loud. , every_noise_0.png , bird_0.png , mismatching , matching
+target , C , The cars are expensive. , cars_01.png , hidden-cars.png , mismatching , matching
+prime1 , Baseline-only , Only the drum is quiet. , drum_1.png , every_noise_1.png , matching , mismatching
+prime2 , Baseline-only , Only the bird is quiet. , every_noise_1.png , bird_1.png , matching , mismatching
+target , C , The instruments are loud. , hidden-instruments.png , instruments_01.png , matching , mismatching
+prime1 , Baseline-the , The bag is light. , bag_1.png , every_0.png , mismatching , mismatching
+prime2 , Baseline-the , The book is light. , every_0.png , book_1.png , mismatching , mismatching
+target , C , The instruments are loud. , hidden-instruments.png , instruments_01.png , mismatching , mismatching
+prime1 , Baseline-the , The bird is loud. , every_noise_1.png , bird_0.png , matching , matching
+prime2 , Baseline-the , The drum is loud. , drum_0.png , every_noise_1.png , matching , matching
+target , D , The instruments are quiet. , hidden-instruments.png , instruments_01.png , matching , matching
+prime1 , Baseline-only , Only the drum is quiet. , every_noise_1.png , drum_1.png , mismatching , matching
+prime2 , Baseline-only , Only the trumpet is quiet. , trumpet_1.png , every_noise_1.png , mismatching , matching
+target , D , The cars are cheap. , hidden-cars.png , cars_01.png , mismatching , matching
+prime1 , Baseline-only , Only the drum is loud. , drum_0.png , every_noise_0.png , matching , mismatching
+prime2 , Baseline-only , Only the bird is loud. , every_noise_0.png , bird_0.png , matching , mismatching
+target , D , The birds are quiet. , hidden-birds.png , birds_01.png , matching , mismatching
+prime1 , Baseline-the , The watch is cheap. , watch_1.png , every_0.png , mismatching , mismatching
+prime2 , Baseline-the , The bag is cheap. , every_0.png , bag_1.png , mismatching , mismatching
+target , D , The books are light. , hidden-books.png , books_01.png , mismatching , mismatching
+control , Foil-Blur , The book is expensive. , hidden-books.png , book_1.png
+control , Foil-Blur , The bird is quiet. , bird_0.png , hidden-birds.png
+control , Foil-Blur , The watch is light. , hidden-watchs.png , watch_0.png
+control , Foil-Blur , Only the watch is cheap. , hidden-watchs.png , watch_0.png
+control , Foil-Blur , The book is heavy. , hidden-books.png , book_1.png
+control , Foil-Blur , Only the bag is cheap. , bag_0.png , hidden-bags.png
+control , Foil-Blur , The bag is cheap. , hidden-bags.png , bag_0.png
+control , Foil-Blur , Only the trumpet is loud. , trumpet_1.png , hidden-trumpets.png
+control , Both-C , The cars are expensive. , cars_01.png , cars_0.png
+control , Both-C , The instruments are loud. , instruments_0.png , instruments_01.png
+control , Both-C , The watches are expensive. , watches_0.png , watches_01.png
+control , Both-C , The books are heavy. , books_01.png , books_0.png
+control , Both-C , The cars are expensive. , cars_01.png , cars_0.png
+control , Both-C , The watches are expensive. , watches_0.png , watches_01.png
+control , Both-C , The cars are expensive. , cars_0.png , cars_01.png
+control , Both-C , The birds are loud. , birds_01.png , birds_0.png
+control , Both-D , The watches are cheap. , watches_01.png , watches_1.png
+control , Both-D , The birds are quiet. , birds_01.png , birds_1.png
+control , Both-D , The cars are cheap. , cars_1.png , cars_01.png
+control , Both-D , The books are light. , books_1.png , books_01.png
+control , Both-D , The bags are light. , bags_1.png , bags_01.png
+control , Both-D , The watches are cheap. , watches_01.png , watches_1.png
+control , Both-D , The birds are quiet. , birds_1.png , birds_01.png
+control , Both-D , The watches are cheap. , watches_1.png , watches_01.png
+control , True-Blur , Only the trumpet is loud. , hidden-trumpets.png , trumpet_0.png
+control , True-Blur , The book is heavy. , book_0.png , hidden-books.png
+control , True-Blur , Only the watch is heavy. , hidden-watchs.png , watch_0.png
+control , True-Blur , The bag is expensive. , bag_0.png , hidden-bags.png
+control , True-Blur , Only the trumpet is loud. , trumpet_0.png , hidden-trumpets.png
+control , True-Blur , Only the watch is expensive. , hidden-watchs.png , watch_0.png
+control , True-Blur , The book is heavy. , hidden-books.png , book_0.png
+control , True-Blur , The book is cheap. , hidden-books.png , book_1.png

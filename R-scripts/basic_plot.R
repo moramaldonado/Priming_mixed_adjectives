@@ -110,7 +110,7 @@ ggsave('BLUR_targets.png', path='graphs/')
 
 
 #Matching predicates
-results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "Predicate_scale"), 
+results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "Predicate_scale", "Img_side"), 
                          function(experimental_items)c(mean=mean(experimental_items$Blur.Selection, na.rm=T)))
 
 results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "Predicate_scale"), 

@@ -15,9 +15,19 @@ results <- get.results(file.path(getwd(), "results", "results"),'PictureAccept',
 
 results <- results %>%
   dplyr::select(-nada,-Col12, -Col13, -Col14,-group, -controller)%>%
+  #Experiment_ConditionPrime_ConditionTarget_PredicateCondition_ImgCondition_PredicatePrime_PredicateTarget_ValencePrime_ValenceTarget_ResponseOrder
   separate(type, c('Experiment','Condition.Prime','Condition.Target','Predicate_scale','Image_side','Predicate.Prime', 'Polarity.Prime','Predicate.Target', 'Polarity.Target', 'Image.Position'),
            sep = "_", remove = TRUE, convert = FALSE) %>%
   mutate(answer = as.factor(if_else(answer==1,'L','R')))%>%
+  mutate(exemplar=if_else(grepl('bag',results$sentence, ignore.case=TRUE),'bag',
+                          if_else(grepl('book',results$sentence, ignore.case=TRUE), 'book',
+                                  if_else(grepl('watch',results$sentence, ignore.case=TRUE), 'watch',
+                                          if_else(grepl('bird',results$sentence, ignore.case=TRUE), 'bird',
+                                                  if_else(grepl('instrument',results$sentence, ignore.case=TRUE), 'instrument',
+                                                          if_else(grepl('car',results$sentence, ignore.case=TRUE), 'car',
+                                                                  if_else(grepl('drum',results$sentence, ignore.case=TRUE), 'drum','trumpet'))))))))%>%
+  
+  
   mutate(Polarity.Prime= as.factor(if_else(Polarity.Prime==1, 'neg', 'pos'))) %>%
   mutate(Polarity.Target= as.factor(if_else(Polarity.Target==1, 'neg', 'pos'))) %>%
   mutate(element.number= as.factor(if_else(element.number==0 & Condition.Prime != 'Control', 'Prime1', 

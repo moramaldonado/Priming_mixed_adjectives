@@ -1,0 +1,577 @@
+"subject","md5.hash","item.number","Experiment","Condition","Predicate","Polarity","Blur_Both","Overt","sentence","answer","rt","Selection.Blur_Both","Accuracy"
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",4481,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",1818,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",2315,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2346,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",2334,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",4661,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",1900,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1807,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2268,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2951,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",1856,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2491,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",3390,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3239,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",1976,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2516,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2201,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2337,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",1639,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1472,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",1420,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","L",2572,FALSE,FALSE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",1996,FALSE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",1919,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",3075,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2294,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","L",1396,FALSE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2294,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",1808,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",3033,TRUE,TRUE
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1734,TRUE,NA
+"1493475050","c911d0dddb57406b34af9afaeab19ecc","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2320,TRUE,FALSE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",7210,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2098,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",3178,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2739,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3029,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2935,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4130,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",3829,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2539,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",1823,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",2224,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3643,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",1886,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",1845,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",1712,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",1886,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",1836,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",1883,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","L",2846,FALSE,FALSE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","R",3560,FALSE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",18398,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3774,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",1890,TRUE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2877,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","L",1549,FALSE,FALSE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2468,TRUE,FALSE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",1389,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",3966,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2338,TRUE,NA
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2792,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",1435,FALSE,TRUE
+"1493475155","d9587cdc1bfe99f555c6803992d873fb","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1682,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",8675,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",4750,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",1841,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",7760,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2716,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2679,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2583,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",2518,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",7753,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",2261,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2275,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",1793,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",3073,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",3931,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",2966,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2416,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2460,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2411,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2448,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2936,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",4392,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",3274,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",7131,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1879,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","L",2332,FALSE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2187,TRUE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","L",1600,FALSE,FALSE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2138,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2777,TRUE,NA
+"1493475217","a91a25297312b125bcf3f44c6fb73493","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",2091,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",1837,FALSE,TRUE
+"1493475217","a91a25297312b125bcf3f44c6fb73493","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2577,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",6974,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",3339,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2878,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",4451,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3084,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2182,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",2379,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",2559,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",1804,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","L",3538,FALSE,FALSE
+"1493475222","fae7731a904be38aa34c3216110ce48c","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2527,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2390,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",13179,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4008,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",4564,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",5101,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2992,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",16127,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",3633,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",15379,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2828,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2165,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2371,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2711,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",3261,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2514,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",3418,TRUE,NA
+"1493475222","fae7731a904be38aa34c3216110ce48c","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2072,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",2300,FALSE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",2876,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2711,TRUE,TRUE
+"1493475222","fae7731a904be38aa34c3216110ce48c","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",1740,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",4920,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",5347,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",2810,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",3134,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",1976,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5353,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",5472,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",3877,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2865,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",3862,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2883,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3766,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",5163,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",16491,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",1323,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2767,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",2767,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1842,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2883,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3866,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2058,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",5246,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",3713,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",6447,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",2762,TRUE,NA
+"1493475266","fa867fde3608a53a5491be655f991749","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",3005,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",3144,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",1969,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",1976,TRUE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",1959,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3398,FALSE,TRUE
+"1493475266","fa867fde3608a53a5491be655f991749","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",3006,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",3158,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",3791,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2391,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2835,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",4494,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2104,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2592,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2600,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",5517,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",11510,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",59122,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2217,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2663,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",1853,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2091,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",2242,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1980,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",1784,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2286,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",1984,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",1224,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3415,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",1896,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",13361,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",1767,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2432,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",1890,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2624,TRUE,NA
+"1493475299","a76e903b957891feec2ed740d449d432","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",1856,TRUE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",1239,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2283,FALSE,TRUE
+"1493475299","a76e903b957891feec2ed740d449d432","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2751,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",5062,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","L",3654,FALSE,FALSE
+"1493475360","0975212228793d134d81ffc94014709f","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5293,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3923,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","L",3190,TRUE,FALSE
+"1493475360","0975212228793d134d81ffc94014709f","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","L",3992,TRUE,FALSE
+"1493475360","0975212228793d134d81ffc94014709f","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",2326,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",3373,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2797,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",3127,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2183,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3031,FALSE,FALSE
+"1493475360","0975212228793d134d81ffc94014709f","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",5565,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2527,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",3598,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",3939,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2332,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2926,TRUE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2414,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",4295,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",3878,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2701,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3326,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3784,FALSE,TRUE
+"1493475360","0975212228793d134d81ffc94014709f","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",4536,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2860,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",4534,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",4486,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",3454,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",3654,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",5158,TRUE,NA
+"1493475360","0975212228793d134d81ffc94014709f","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",6608,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2719,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",4025,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2855,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2562,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2285,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",2348,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",2638,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",4268,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",3147,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",3565,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",2654,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",2688,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",3738,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3484,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",2197,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2575,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",2198,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2131,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2215,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2256,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3977,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2460,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",1590,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1701,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",2428,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",1198,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",1507,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",1701,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1335,TRUE,NA
+"1493475537","93e02656cd86d52dfafe229bc163679a","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3726,FALSE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",1880,TRUE,TRUE
+"1493475537","93e02656cd86d52dfafe229bc163679a","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2023,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",22583,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",14230,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",9797,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",4340,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","L",10781,FALSE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",6226,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5386,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",10961,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",3840,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",3502,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4830,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",4478,FALSE,FALSE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",4633,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",4080,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",3823,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",7603,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",4552,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",3336,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",4324,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",1929,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",8585,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3991,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",17606,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",3797,FALSE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",17029,TRUE,TRUE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",10510,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",5093,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",20564,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",5972,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","R",1720,TRUE,FALSE
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",6925,TRUE,NA
+"1493475682","73a24e3f3d4cca18ce106e975df6a841","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",3663,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",4394,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",6130,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2492,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",3439,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",3557,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",4275,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2830,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",2540,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",3789,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",3890,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",3416,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2004,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",8091,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",5111,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",4709,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2161,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2571,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",1803,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",3245,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",1991,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",4331,FALSE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",1952,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",3039,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2606,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",2008,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",7133,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",3842,TRUE,TRUE
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2547,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1940,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",1814,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",4410,TRUE,NA
+"1493475806","1a07b704e18bdf280c49320c62ef9efc","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2890,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",17913,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",6073,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",11881,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",5630,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",5594,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",10871,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",23825,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",12742,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",14801,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",5151,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",13667,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",12414,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",13493,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",11824,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",27380,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",6989,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",6214,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",7134,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",7530,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",11093,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",9638,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",8680,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5842,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",4103,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",5875,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",4551,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",5210,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",6384,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3088,TRUE,NA
+"1493475890","773288beb09341ebf50a8c6bd91232c9","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",9999,TRUE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",6601,FALSE,TRUE
+"1493475890","773288beb09341ebf50a8c6bd91232c9","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2867,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",9607,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",3244,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",4796,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",4002,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2372,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",1850,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",2874,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",1910,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",3050,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","L",4808,FALSE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2182,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2725,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2533,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2496,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2858,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2446,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",2964,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",2297,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",2835,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2241,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",3144,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",5187,FALSE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",2794,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2926,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2474,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2720,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2977,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",2657,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3146,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",3841,TRUE,TRUE
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",2406,TRUE,NA
+"1493476101","0fa71c65695ba3ec6089c1bfebca9b41","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",2334,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",5386,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",5851,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",6506,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4144,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",3657,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3235,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",3382,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",6257,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2376,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3374,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",9132,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",5340,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",9740,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",4847,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2458,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",2619,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",4897,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",48516,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2280,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2461,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2087,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",5899,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2476,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3121,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",5638,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",1981,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2205,TRUE,NA
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",3077,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",3178,FALSE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2475,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",2738,TRUE,TRUE
+"1493476469","3f4c68c9bc62cba4df462df26b74da2a","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3735,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",7150,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",6452,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",5191,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",5141,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3669,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",10069,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",4789,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",4895,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",3813,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",5407,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",2551,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3820,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",8295,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",4852,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3838,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",5672,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3868,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",3127,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","L",4552,FALSE,FALSE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",5516,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",3815,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",13510,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",3109,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",4229,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2030,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",3607,FALSE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2381,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5343,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",7096,TRUE,TRUE
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",7062,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",2615,TRUE,NA
+"1493476616","c98da84589b6e1c7e3c119c7096a224b","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",5101,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","50","E1","Both-D","heavy/light","1","L","R","The books are light.","R",4859,FALSE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3666,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","L",2426,FALSE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","L",2399,FALSE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2164,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",995,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",1374,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","L",1576,TRUE,FALSE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",3641,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",3089,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",3650,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2013,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2190,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2091,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",2321,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",8514,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",6164,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",5325,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",1949,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",2555,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2048,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",5382,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",5562,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",4366,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4719,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",2670,FALSE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2369,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2123,TRUE,TRUE
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",1908,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",4132,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",2587,TRUE,NA
+"1493476641","6e8974fb53b349f4f9636b59ce4e2542","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",1635,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",6231,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",5795,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",7530,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",2101,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",4022,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2407,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",7849,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",3006,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",4914,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2606,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",3383,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",2939,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",2231,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3310,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",5474,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",2579,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",2519,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",1860,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",4261,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",3942,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2252,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",4011,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",3204,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",3763,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","L",1939,FALSE,FALSE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2326,TRUE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3391,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",2154,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",2169,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",4724,TRUE,NA
+"1493476820","e4d042893c3f90881a453f72b2a73a70","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",3309,FALSE,TRUE
+"1493476820","e4d042893c3f90881a453f72b2a73a70","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",3076,TRUE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","L",6297,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","L",7599,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","L",6124,FALSE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","R",4878,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","R",3564,TRUE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",4995,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","L",3917,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",4007,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",1674,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","49","E1","Both-D","heavy/light","1","R","L","The books are light.","L",5986,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2472,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",2082,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",1409,FALSE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","L",3042,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",3420,TRUE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",2423,TRUE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",4589,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",2088,FALSE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","L",52439,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",6413,FALSE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","R",4477,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","R",3200,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","L",2865,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","L",3187,FALSE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","L",2455,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","L",1259069,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","L",1500,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","L",1904,FALSE,FALSE
+"1493477505","33a58655809dae0b9af4096dad252858","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",2281,TRUE,TRUE
+"1493477505","33a58655809dae0b9af4096dad252858","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","L",1453,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","L",2299,FALSE,NA
+"1493477505","33a58655809dae0b9af4096dad252858","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",1219,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","39","E1","Both-C","heavy/light","0","R","L","The bags are heavy.","R",3716,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","57","E1","True-Blur","loud/quiet","0","L","R","Only the drum is loud.","R",3222,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","50","E1","Both-D","heavy/light","1","L","R","The books are light.","L",4883,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","44","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",6983,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","51","E1","Both-D","loud/quiet","1","R","L","The birds are quiet.","R",4154,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","34","E1","Foil-Blur","heavy/light","0","L","R","The book is heavy.","L",3840,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","42","E1","Both-C","expensive/cheap","0","L","R","The cars are expensive.","L",4016,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","37","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",5563,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","58","E1","True-Blur","expensive/cheap","1","R","L","The book is cheap.","L",2841,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","36","E1","Both-C","heavy/light","0","R","L","The books are heavy.","R",4338,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","41","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",4249,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","56","E1","True-Blur","loud/quiet","0","R","L","Only the trumpet is loud.","L",3592,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","29","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",6154,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","28","E1","Foil-Blur","expensive/cheap","0","L","R","The bag is expensive.","L",3713,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","46","E1","Both-D","expensive/cheap","1","R","L","The watches are cheap.","R",6017,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","54","E1","True-Blur","expensive/cheap","0","L","R","The book is expensive.","R",3349,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","32","E1","Foil-Blur","heavy/light","1","R","L","The bag is light.","R",3523,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","43","E1","Both-C","loud/quiet","0","R","L","The instruments are loud.","R",3521,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","31","E1","Foil-Blur","loud/quiet","0","R","L","Only the bird is loud.","R",2234,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","55","E1","True-Blur","loud/quiet","0","L","R","The trumpet is loud.","R",4451,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","59","E1","True-Blur","heavy/light","0","R","L","The watch is heavy.","L",3211,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","53","E1","True-Blur","expensive/cheap","0","L","R","The bag is expensive.","R",3713,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","45","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",4924,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","52","E1","True-Blur","loud/quiet","1","L","R","Only the bird is quiet.","R",2904,FALSE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","48","E1","Both-D","expensive/cheap","1","R","L","The cars are cheap.","R",3405,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","47","E1","Both-D","loud/quiet","1","R","L","The instruments are quiet.","R",5019,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","40","E1","Both-C","heavy/light","0","L","R","The books are heavy.","L",2336,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","35","E1","Foil-Blur","expensive/cheap","1","R","L","The bag is cheap.","R",2152,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","30","E1","Foil-Blur","expensive/cheap","0","R","L","The watch is expensive.","R",2095,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","33","E1","Foil-Blur","loud/quiet","0","L","R","Only the drum is loud.","L",2943,TRUE,TRUE
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","49","E1","Both-D","heavy/light","1","R","L","The books are light.","R",1876,TRUE,NA
+"1493479444","4236fa8dd62371901c0f0b91da7aa1a2","38","E1","Both-C","expensive/cheap","0","R","L","The watches are expensive.","R",3430,TRUE,NA

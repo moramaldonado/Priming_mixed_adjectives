@@ -1,25 +1,51 @@
 mydata <- subset(experimental_items, element.number == 'Target' & Accuracy==TRUE)
-mydata$HOI <- as.factor(if_else(mydata$Condition.Prime=='C' |mydata$Condition.Prime=='D', 'prime', 'baseline'))
-mydata$Condition.Prime.Re <- as.factor(if_else(mydata$Condition.Prime=='C' |mydata$Condition.Prime=='Baseline-the', 'Coll', 'Dist'))
 
-#Higher order interaction
+## (1) 3-way/Higher order interaction
 model.full <- glmer(Blur.Selection~Condition.Prime.Re*Condition.Target*HOI + 
-                      (1|subject), 
+                      (1+Condition.Prime.Re*Condition.Target*HOI|subject)+(1|exemplar), 
                     data = mydata, 
                     control=glmerControl(optCtrl=list(maxfun=100000)),
                     family=binomial)
 model.noint <- glmer(Blur.Selection~(Condition.Prime.Re+Condition.Target+HOI)^2+
-                      (1|subject), 
+                       (1+Condition.Prime.Re*Condition.Target*HOI|subject)+(1|exemplar), 
                     data = mydata, 
                     control=glmerControl(optCtrl=list(maxfun=100000)),
                     family=binomial)
 
 anova(model.full,model.noint)
 
+## (2) Two-way interaction 
+
+model.2way <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
+                      (1|subject), 
+                    data = mydata, 
+                    control=glmerControl(optCtrl=list(maxfun=100000)),
+                    family=binomial)
+model.2way.noint <- glmer(Blur.Selection~Condition.Prime+Condition.Target+
+                       (1|subject), 
+                     data = mydata, 
+                     control=glmerControl(optCtrl=list(maxfun=100000)),
+                     family=binomial)
+
+anova(model.full.2way,model.2way.noint)
+
+## (3) Interaction C vs. D
+mydata.primes <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='C')
+model.full.primes <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
+                             (1|subject), 
+                           data = mydata.primes, 
+                           control=glmerControl(optCtrl=list(maxfun=100000)),
+                           family=binomial)
+model.noint.primes <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
+                              (1|subject), 
+                            data = mydata.primes, 
+                            control=glmerControl(optCtrl=list(maxfun=100000)),
+                            family=binomial)
+
+anova(model.full.primes,model.noint.primes)
 
 
-
-#Interaction between baselines
+## (4) Interaction between baselines
 mydata.baseline <- subset(mydata, Condition.Prime !='D' & Condition.Prime !='C')
 model.full.baseline <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
                       (1|subject), 
@@ -33,26 +59,6 @@ model.noint.baseline <- glmer(Blur.Selection~Condition.Prime+Condition.Target +
                      family=binomial)
 
 anova(model.full.baseline,model.noint.baseline)
-
-#Interaction C vs. D
-mydata.primes <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='C')
-model.full.primes <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                               (1|subject), 
-                             data = mydata.primes, 
-                             control=glmerControl(optCtrl=list(maxfun=100000)),
-                             family=binomial)
-model.noint.primes <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
-                                (1|subject), 
-                              data = mydata.primes, 
-                              control=glmerControl(optCtrl=list(maxfun=100000)),
-                              family=binomial)
-
-anova(model.full.primes,model.noint.primes)
-
-
-
-#Higher order interaction Baselines vs. Primes
-
 
 
 
