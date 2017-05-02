@@ -61,7 +61,7 @@ model.noint.baseline <- glmer(Blur.Selection~Condition.Prime+Condition.Target +
 anova(model.full.baseline,model.noint.baseline)
 
 
-
+###OTHER (just in case previous overall models are significant)
 #Interaction D vs. Baseline-only
 mydata.DvsOnly <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='Baseline-only')
 model.full.DvsOnly  <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
