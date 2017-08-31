@@ -1,0 +1,605 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage[
+  margin=2cm,
+  includefoot,
+  footskip=30pt,
+]{geometry}
+
+%Examples
+\usepackage{linguex}
+\renewcommand*{\firstrefdash}{}
+
+%Math
+\usepackage{amsmath, stmaryrd}
+\usepackage{centernot}
+
+% Graphics
+\usepackage{graphicx}
+\graphicspath{{./fig/}} %path 
+\usepackage{subcaption}
+
+%Table
+\usepackage{multirow}
+% Captions
+\usepackage{caption}
+\captionsetup{%
+  font=small,
+  labelfont=bf
+}
+
+%Colors
+%\usepackage[dvipsnames]{xcolor}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+
+% Comments
+\newcommand{\changeMM}[2]{{\leavevmode\color{red}{\scriptsize\st{#1}}~\color{Blue1}#2}}
+\newcommand{\nbMM}[1]{{\leavevmode\color{red}{\scriptsize#1}}}
+\newcommand{\addMM}[1]{{\leavevmode\color{red}#1}}
+
+%References
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+
+%Information
+\title{Outline: Priming distributive/collective ambiguity with adjectival predicates}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Phenomena}
+The sentences in \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} can have at least two different interpretations: a collective reading illustrated in (a) and a distributive reading illustrated in (b). 
+
+\ex. The two girls built a sand castle. \label{ex.transitive.mixed}
+\a. The two girls built a single sand castle together. \hfill{Collective reading}
+\b. One girl built a sand castle and the other girl built a different sand castle.  \hfill{Distributive reading}
+
+\ex.The bags are heavy. \label{ex.adjectival.mixed}
+\a. The total weight of the bags is heavy without each bag being heavy. \hfill{Collective reading} 
+\b. The weight of each bag is individually heavy (and therefore the total weight is heavy as well).  \hfill{Distributive reading}
+
+\begin{itemize}
+\item In their collective reading, sentences such as \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} are true as long as the predicate is true of the plural subject as a whole, without necessarily being true of each individual member.  
+
+\item Instead, distributive readings are diagnosed by the existence of a \emph{distributive entailment} such that whenever the predicated is applied to the plural subject, it is inferred to be individually true of each individual member of that subject. 
+
+\item NB: The sentences above differ in the specific relation between the readings. We will come back to this issue in the following subsection. 
+
+\item Predicates that can have associated both collective and distributive readings have been traditionally called `mixed' predicates (Champollion, to appear). Distributive entailments are not mandatory for these predicates. 
+
+\item Note, however, that not all predicates are mixed. Some predicates are either \emph{inherently distributive} or \emph{inherently collective}. While both predicates in \ref{ex.lexical.requirements} take plural subjects, inherently distributive predicates (e.g. \ref{ex.inherently.distributive}) are always applied to individual members (the distributive entailment is mandatory), whereas inherently collective predicates (e.g. \ref{ex.inherently.collective}) are always applied to pluralities (as a matter of fact, they are incompatible with singular subjects), and the distributive entailment is always impossible. 
+
+\ex. \label{ex.lexical.requirements}
+\a. The girls smiled. \label{ex.inherently.distributive}
+$\implies$ Each girl smiled. 
+\b. The girls gathered \label{ex.inherently.collective}
+$\centernot\implies$ *Each girl gathered. 
+
+\item Most adjectival predicates also lack a collective interpretation (cf. `stubbornly distributive' predicates, Schwarzschild 2009, but see Scontras \& Goodman). 
+
+\ex. The bags are big. $\implies$ Each bag is big. 
+
+\item Two different \emph{sources} of distributivity have been distinguished in order to account for both inherently distributive and `mixed' predicates (which are distributive only under one of its possible readings): distributivity arising from lexical semantics, and distributivity arising from a covert distributivity operator. 
+
+Importantly, in both cases, distributivity can be diagnosed by the presence of a distributive entailment. 
+
+\item The ambiguity illustrated in \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} has been captured by positing the existence of optional distributivity operator $D$, whose meaning roughly corresponds to that of adverbial \textit{each} in English (Link 1991, Champollion). 
+
+\ex. $ \llbracket D \rrbracket = \lambda P.  \ \lambda x \ \forall y[\ y \preceq_{AT} x \rightarrow P(y)]$ \\
+In words: The $D$ operator takes a predicate $P$ and returns a new predicate that is true of a plurality exactly if $P$ is true of all the atomic individuals that make up the plurality. 
+
+\item When the $D$ operator is applied to a `mixed' predicate, the distributive entailment is guaranteed \addMM{(there is ``covariation'' of events)}. Moreover, the universal quantification introduced by $D$ will interact with any variables or operator contained in the predicate. In \ref{ex.transitive.mixed.distributive}, the predicate is the verb phrase \textit{built a sandcastle}. Since the indefinite object (\textit{a sandcastle}) is in the scope of the distributivity operator, the sandcastle is allowed to covary with each member of the subject (i.e. with each girl). 
+As a result, the $D$ operator accounts for the covariation effects attested in transitive predicates. 
+
+\ex. The girls $D$ built a sand castle.\label{ex.transitive.mixed.distributive} \\ 
+    $D(\lambda x.\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(x,y))(\iota x.\mathit{girls}'(x))$\\
+    $\forall z . (z\preceq_{AT}\iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(z,y)$
+
+\item  The non-distributive or collective reading, instead, is just the result of applying the plural subject to the mixed predicate, without the mediation of the distributivity operator. In this sense, non-distributive interpretations are obtained by default. 
+
+\ex. The girls built a sand castle.\\
+    $\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(\iota x.\mathit{girls}'(x))$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(\iota x.\mathit{girls}'(x),y)$
+
+
+\addMM{See: if we include events in the denotation, we can talk about covaritation of events }
+
+
+\end{itemize}
+
+
+\subsection{Distributivity and co-variation}
+
+%\addMM{Show that distributivity does not necessarily entail covariation of objects per subjects. In the case of transitive predicates, distributive readings can only be isolated in cases of covariation of objects per subjects. This lead people to always test these kind of scenarios. The verification strategy at play to check covariation scenarios is similar across different phenomena (scope, for instance). This creates a potential confound.}
+
+\begin{itemize}
+\item As observed above, applying the $D$ operator to a VP such as \textit{built a sandcastle} not only guarantees the distributive entailment but also allows for the indefinite to covary with the members of the subject. This covariation is the product of the scope interaction between the $D$ operator and the indefinite. 
+
+\item In the specific case of a predicate of creation such as \textit{built a sandcastle}, the distributive reading will always result on covariation: since the same castle cannot be built more than once, if there is more than one building event, there will also be more than one castle. As a result, under their distributive reading, \ref{ex.transitive.mixed.distributive} will \emph{always} describe a scenario where there is covariation of castles per girl. 
+
+\item However, \textbf{covariation is not inherent to distributivity}. This is not only true for intransitive `mixed' predicates such as `heavy' (where there is no object to covary) but also for some transitive predicates. 
+
+\item The sentence in \ref{ex.transitive.mixed.paint} is compatible with three different kind of scenarios, illustrated in a-c. 
+
+\ex. The two girls painted a sand castle. \label{ex.transitive.mixed.paint}
+\a. The two girls painted a single sand castle together without each separately doing so. 
+\b.  The two girls painted each a different sand castle .
+\c. The two girls painted each the same sand castle .
+
+\ex. \label{ex.transitive.mixed.paint.LF}
+\a. The girls painted a sand castle.\\
+    %$\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(Mora\oplus Milica)$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{painted}'(\iota x.\mathit{girls}'(x), y)$
+\b. The girls $D$ painted a sand castle.\\
+    $\forall z . (z\preceq_{AT} \iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{painted}'(z,y)$
+    
+\item If we take a look to the two alternative representations (with and without $D$, see \ref{ex.transitive.mixed.paint.LF}), we can easily notice that the scenario in (a) clearly makes the non-distributive reading true, whereas the scenario in (b) clearly makes the distributive reading true.
+
+\item What about the scenario in (c)? 
+Since the distributive reading in \ref{ex.transitive.mixed.paint.LF}b does not impose covariation, the scenario in (c) will make this reading true. Moreover, it will also make true a reading where the indefinite takes wide scope above the $D$ operator. 
+ \\  
+Assuming that predicates are lexically cumulative (Scha 1991, Kratzer 2007, Champollion diss), whenever the predicate is true of individuals, it's also true of the plurality made up of them. The scenario in (c) will make the non-distributive reading in \ref{ex.transitive.mixed.paint.LF}a true.
+
+\item \addMM{Maybe not: This example serves to show that covariation can be somehow independent of distributivity} Note, moreover, that there are certain verb phrases that can only be understood under a distributive reading. For instance, the sentence ``The girls saw a person'' always entails that ``Each girl saw a person''. The distributive entailment is mandatory here as it was for the sentences in \ref{ex.inherently.distributive}. However, these sentence is also compatible with two different scenarios, depending on whether there is or not covariation of persons per girl. Under the lexical cumulative hypothesis, scenarios without covariation would make true a reading of the sentence which does not include the $D$ operator. Applying the D operator to these distributive predicates is not vacuous: it allows to have covariation of objects (i.e. the sentence is compatible with a situation where each boy saw a different person). 
+
+
+\end{itemize}
+
+%I'm not following entirely, partly because I'm not sure that the sentence without the D operator is not compatible with covariation. I wonder whether doing it with "the boys saw a friend of them" could help. But we'll talk about that in person, it's probably not crucial for the presentation and I'm sure you and Benjamin sorted this out.
+%We can discuss more about this, but I think that if you want the reading where each boy saw his friend, you would need to apply D, despite the fact that the distributive entailment is hold in the boys saw a friend of them, where boy1 saw a friend of 
+
+\subsubsection*{Psycholinguistic approaches/background}
+
+\begin{itemize}
+
+\item Distributive readings of `mixed' transitive predicates such as \ref{ex.transitive.mixed.paint.LF}b can only be fully isolated in scenarios where there is covariation of objects (i.e. these situations are the only ones that make distributive readings true and non-distributive readings false). 
+Consequently, most experimental attempts to investigate the availability of distributive inferences for ambiguous predicates have tested these sentences in covariation scenarios such as the one described in \ref{ex.transitive.mixed.paint}b (CITE).
+
+\item This approach, however, has a main drawback: The use of covariation scenarios might cause people to develop verification strategies, which are not inherent to distributivity but to its specific instantiation. For instance, in order to verify whether the distributive reading of \ref{ex.transitive.mixed} is true or false, one could directly check whether there is more than one sand castle: having a ``number mismatch'' between the sentence and the number of objects in the scenario would be enough to accept the sentence. 
+
+\item The processing pattern that many studies had attributed to distributive interpretations might be in fact characteristic of covariation effects and not of distributivity per se (i.e. distributive entailment). 
+
+\item Let us consider in detail an example of how covariation might confound the interpretation of previous results. Maldonado et al (2017) tested whether the distributive/non-distributive contrast for sentences such as `Two squares are connected to three circles'' could give rise to priming effects. 
+
+\addMM{Priming is known to be a good way of tapping onto abstract representations (Raffray and Pickering 2010; Chemla and Bott 2015; Bott and Chemla 2015 \addMM{ADD}). Thus, by specifically priming each interpretation, one would be able to isolate distributive and non-distributive readings during processing.} 
+
+\item Participants performed a sentence-picture matching task, where they had to choose between two images the one that best described the sentence. Crucially, distributive readings were always instantiated by a ``covariation'' picture, whereas non-distributive readings were instantiated by a non-covariation picture (e.g. \ref{fig:example.maldonado2017}). 
+In the so-called \emph{prime} trials, only one of the images was compatible with the sentence under one of its possible readings, whereas in \emph{target} trials, both images were compatible with the sentence under each of its readings. 
+
+\noindent The authors found that, when subjects were biased towards one of the two readings in one prime trial, they were more likely to access the same interpretation in a subsequent target trial. This effect was asymmetric: only distributive primes had a significant impact in the subsequent target, whereas non-distributive primes were not  significantly different from having no prime at all.  \nbMM{Maybe take out the last paragraph. I am unsure of how much information I should give at this point.}
+
+\noindent The authors concluded that priming of semantic interpretations was at play. Given the asymmetry of the effect, their results were considered to be compatible with the idea that distributive readings are derived, and what we primed was the insertion of the $D$ operator.
+
+\item Note, however, that the priming effect attested in Maldonado et al 2017 could also be explained (at least partially) by saying that a specific verification strategy is being primed. This verification strategy would consist on checking covariation of the objects named in the sentence. 
+
+\item As observed, this confound cannot be easily avoided in the case of transitive mixed predicates. Alternatively, one could start looking at the case distributivity in adjectival mixed predicates, which do not involve covariation effects. 
+\end{itemize}
+
+\begin{figure}[htbp]
+\begin{center}
+ \includegraphics[width=.6\textwidth]{tablealternative.pdf}
+\caption{Stimuli in Maldonado et al 2017}
+\label{fig:example.maldonado2017}
+\end{center}
+\end{figure}
+
+
+\subsection{Distributivity without covariation}
+\begin{itemize}
+\item Sentence in \ref{ex.adjectival.mixed} can have both a distributive and a collective reading.  As before, collective readings are thought here to be default interpretations, while distributive readings can be derived by applying the $D$ operator to the predicate\footnote{Notice that it's necessary to propose a specific mechanism to derive distributive readings because distributive readings can be true in situations where collective readings cannot}:
+
+\ex.
+\a. The bags are heavy.\\
+ $ \textit{light}'(\iota x.\mathit{bags}'(x),d)$
+\b. The bags $D$ are heavy.\\
+    $\forall z. (z \preceq_{AT}\iota x.\mathit{bags}'(x)) \rightarrow  \textit{light}'(z,d)$
+
+\addMM{NB: This is a simplified LF, which should maybe have a POS or EVAL operator, depending on the view}.
+
+\item Unlike examples such as \ref{ex.transitive.mixed}, the two readings of  \ref{ex.adjectival.mixed} have an entailment relation between them. A scenario that makes the distributive reading of the sentence true (i.e. the weight of each individual bag is heavy) also makes the collective reading true. That is to say, the distributive interpretation entails the collective interpretation. This entailment is not symmetric: the collective reading of \ref{ex.adjectival.mixed} can be true while the distributive reading is false. 
+
+\item The direction of the entailment between the two readings depends on the polarity/valence of the predicate; specifically, the entailment is reversed between two antonyms. Two gradable adjectives are antonyms (e.g. heavy and light) when they use the same dimension (scale), but they have an opposite ordering of degrees on this dimension (Kennedy 1999; Rett 2008, among others). In principle, the difference between positive and negative adjectives can be thought of as the difference between an increasing or a decreasing ordering of degrees.
+
+\item As illustrated in \Cref{table.readings.polarity}, a sentence involving a mixed \emph{negative} adjective (e.g. \textit{The bags are light}) has a collective reading that entails the distributive reading. While the distributive interpretation is the \emph{strong} reading for sentences involving positive adjectives, it is the \emph{weak} interpretation for sentences involving negative adjectives.  
+
+Note that this entailment pattern arises in a systematic way for different pairs of antonyms, such as expensive/cheap and noisy/quiet (as long as they give rise to the ambiguity). 
+\end{itemize}
+
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c}
+& \textsc{Positive adjective} & \textsc{Negative adjective} \\
+\hline
+& \textit{The bags are heavy} & \textit{The bags are light.}\\
+Collective reading & Weak & Strong \\
+Distributive reading & Strong & Weak\\
+\end{tabular}
+\caption[]{Entailment relation between the readings}
+\label{table.readings.polarity}
+\end{table}
+
+
+\subsection{Goals}
+
+Our main goal in this paper is to find a processing signature of distributivity in absence of covariation effects. We will address this issue by asking whether the distributive/collective ambiguity for adjectival predicates gives rise to priming effects. 
+
+\noindent This will allow us to:
+\begin{enumerate}
+
+\item Remove potential confound in previous work.
+\item Investigate the relation between distributive readings and specific verification strategies. 
+\item Investigate priming of interpretations with different strength. 
+\item Investigate priming effects for the distribuve/collective contrast (which has not been explored in the literature). 
+\end{enumerate}
+
+
+\section{Experiment 1}
+\textbf{Overview}
+\vspace{.4cm}\\
+We used a sentence-picture matching task where participants saw a sentence and had to match the sentence with one of two pictures (modelled after Raffray \& Pickering 2010 and Maldonado et al 2017, among others). \vspace{.5cm}
+
+\noindent In experimental trials, the sentence always involved mixed adjectival predicates (either positive or negative) and was ambiguous between a collective and a distributive reading. Each sentence was presented with two out of three possible pictures: (a) a foil picture, that made both readings of the sentence false, (b) a weak picture, that made only one of the readings true (i.e. the \emph{weak} reading) but the other one false, and (c) a `blur' picture, in which the relevant information was blurred so participants could not see it.  
+Specific arrangements between pictures and sentences gave rise to two experimental items: primes and targets (see illustration in \Cref{fig.examples.item.matching}). 
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.95\textwidth]{exp1_matching.jpeg}
+      \caption{Illustration of experimental trials.}
+      \label{fig.examples.item.matching}
+\end{figure}
+
+\vspace{.5cm}
+\noindent There were two types of \textbf{prime trials}:
+\begin{itemize}
+\item \textsc{Collective primes} displayed a sentence involving a positive adjective (e.g. heavy) together with a foil picture and a weak \emph{collective} picture. Given that participants should click in whatever image made the sentence true, they would be forced to access to the reading instantiated by the picture. In collective primes, participants would click on the weak picture, accessing the collective reading of the sentence. 
+\item \textsc{Distributive primes} displayed a sentence involving a negative adjective (e.g. light) together with a foil picture and a weak \emph{distributive} picture, so that participants would be forced to access the distributive reading. 
+\end{itemize}
+
+\noindent \textbf{Target trials} could also be either \textsc{Collective} or \textsc{Distributive}, depending on 
+whether the sentence instantiate a positive or a negative adjective. Unlike primes, targets displayed a weak picture together with a `blur' option. Participants were instructed to select the ``blur'' option if they did not feel that the overt picture sufficiently captured the sentence meaning (we modelled the ‘‘covered picture” method on Huang et al. 2013). Thus, we expected participants to click on the weak picture if they accessed the weak reading (collective or distributive depending on the case), and opt for the ``blur'' option if they accessed the strong reading. 
+
+\vspace{.5cm}
+\noindent Target trials immediately followed prime trials. 
+
+\begin{itemize}
+
+\item Collective priming would be observed when, after a collective prime, participants  select more often the overt picture in collective targets, and the `blur' picture in distributive targets. 
+
+\item Distributive priming would be observed whenever, after a distributive prime, participants select more often the `blur' picture in collective targets, and the overt picture in distributive targets. 
+
+\end{itemize}
+
+A semantic priming effect would be therefore shown by a significant interaction between Prime and Target conditions in the image selection in targets.  
+
+\subsection{Methods}
+
+\subsubsection{Participants}
+Fifty four participants were recruited using Amazon Turk (Female=32). All of them reported English as their native language. 
+
+\subsubsection{Materials}
+Each trial involved a sentence presented with two pictures. Participants had to match the sentence to one of the pictures.
+
+\paragraph{Sentences}
+In experimental trials, the sentence was constructed using the following frame: \textit{The} [plural exemplar] \textit{are} [predicate].
+Predicates were always relative adjectives in their positive or negative form, depending on the target/prime condition. They were selected among three possible predicate pairs: light/heavy, cheap/expensive and noisy/quiet. 
+%The selection of these pairs was motivated by the items that could instantiate the ambiguity. 
+
+\noindent Exemplars varied depending on the predicate pair. Each predicate pair had associated two different exemplars: `bags' and `books' for light/heavy; `cars' and `watches' for cheap/expensive and `birds' and instruments' for noisy/quiet. 
+
+\paragraph{Pictures}
+Experimental trials involved two of three possible images: foil, weak or blur pictures. Both overt pictures (foil and weak) displayed three scales, which could measure degrees of various dimensions (weight, price or sound intensity/volume/decibels). Values at the green left-portion of the scale represent low degrees, whereas values at the red right-portion represent high degrees. Colour codes were provided to avoid confusion about the standard (what is heavy and what is light). 
+The two left-most scales always contained two different tokens of the exemplar named in the sentence (e.g. two different bags); the right-most scale had the two tokens together. 
+`Blur' pictures were constructed in such a way that participants could see that they depicted three scales with exemplars, but they could not notice the arrows indicating the values. 
+
+Prime trials were constructed by two overt images: a weak and a foil picture; in targets, one of the pictures was weak and the other one was a blur.  Weak pictures always involved a mismatch between the scales: the two first scales returned low values for the individual tokens, the third scale returned a high value for the two tokens together.  Note that this is the case for both distributive and collective primes and targets. Foil pictures made the sentence false by making the predicate false in all three scales. 
+
+
+\paragraph{Controls} We also included four types of control trials (e.g. \Cref{fig.example.controls}) : 
+
+\begin{itemize}
+
+\item \emph{Foil} controls involved an unambiguous sentence (e.g. The bag is heavy) and displayed one picture that made the sentence false and a blur. 
+Participants were therefore forced to select the blur option. We reasoned that increasing the selection of the blur in these controls should lead to \emph{decreasing} the overall proportion of blur responses in targets. 
+
+\item \emph{True} controls also involved an unambiguous sentence but they displayed one picture that made the sentence true and a blur. 
+Participants were therefore forced to select the overt option.
+
+\item \emph{Strong-Distributive} and \emph{Strong-Collective} controls involved the same sentences as in primes and targets (e.g. The bags are heavy) but displayed a weak picture and a \emph{strong} picture, which made both readings true. These controls were designed to elevate the overall proportion of blur responses in targets. 
+Participants should be able to imagine that the `blur' picture can hide either an scenario than makes both readings true (strong picture) or one that makes both readings false (foil picture). While primes raise the likelihood of the 'blur' being a foil, strong controls raise the likelihood of blur being a strong picture. 
+On top of this, these controls give us the baseline preference pattern between strong and weak readings. 
+%%DIFFERENCE!!
+
+
+\end{itemize}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.8\textwidth}
+    \includegraphics[width=\textwidth]{controls1.jpeg}
+     \end{subfigure}
+    
+      \begin{subfigure}[b]{0.8\textwidth}
+    \includegraphics[width=\textwidth]{controls2.jpeg}
+      \end{subfigure}
+      \caption{Illustration control trials}
+      \label{fig.example.controls}
+\end{figure}
+
+\subsubsection{Design}
+
+There were two \textsc{prime condition}s (collective and distributive) and two \textsc{target condition}s (collective and distributive), giving rise to four possible prime-target combinations. Collective primes and targets always involve positive adjectives, whereas distributive primes and targets involve negative ones.
+
+In order to boost the priming effect, experimental units were organised in triplets: there were two primes of the same prime condition preceding each target. The two consecutive primes always involve the same predicate but they differ in the exemplar used in the sentence as well as in the position on the screen for the correct image (i.e. weak image).
+
+Primes and target within one experimental unit could instantiate predicates from the same pair or from different ones (matching or mismatching predicats). Moreover, the position of the weak picture in targets could either be that of the weak (correct) image in the first prime or in the second prime.
+
+The experimental design consisted on four fully crossed factors to obtain 16 experimental units: 2 (\textsc{prime condition}) $\times$  2 (\textsc{target condition}) $\times$ 2 (\textsc{predicate condition}) $\times$ 2 (\textsc{weak image position}). The total number of experimental trials was 48. There were a further 16 trials for each control condition. These 64 controls trials were randomly inserted between experimental units.
+
+
+%\subsubsection{Procedure}
+%\addMM{Include illustration}
+
+
+\subsection{Results}
+
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{Targets-Experiment1.png}
+         \caption{Overall results}
+        \label{fig:targetresults.general}
+     \end{subfigure}
+          \begin{subfigure}[b]{0.5\textwidth}
+    \includegraphics[width=\textwidth]{Targets-Experiment1-predicates.png}
+             \caption{Predicate condition}
+        \label{fig:targetresults.predicate}
+      \end{subfigure}
+      \caption{Target results in Experiment 1}
+      \label{fig.targetresults.exp1}
+\end{figure}
+
+
+
+\begin{itemize}
+\item Specifications about data treatment and analyses
+\begin{itemize}
+
+\item Participants with accuracy rates below 75\% in True and Foil Controls were removed from the analyses. The remaining 33 participants were taken into account. 
+
+\item Accuracy in Primes above 90 percent (Collective primes: 97\% (SE:.7); Distributive primes: 92\%(SE: 2)) . We removed all target trials that were not preceded by two correct prime responses (corresponding to 10\% of the targets) . 
+
+\end{itemize}
+
+\item Analysis procedure: modeling response-type likelihood using logit mixed-effect models; maximal random structure when possible \nbMM{NB: only random intercepts per subject}.  
+
+\item Responses in targets after accurate primes (illustrated in \Cref{fig.targetresults.exp1})
+
+\begin{enumerate}
+
+\item Significant interaction \textsc{Prime} $\times$ \textsc{Target} conditions ($\chi^{2}=48.9; \ p<.001$):
+After a collective prime people select more often pictures compatible with the collective reading; while after a distributive prime they select more often pictures that are compatible with the distributive reading. 
+
+\item No significant interaction with \textsc{Predicate Condition} interaction (\textsc{Prime} $\times$ \textsc{Target} $\times$ \textsc{Predicate} conditions: $\chi^{2}<1; \ p=81$): Both matching and mismatching predicates pairs within one experimental pair give rise to similar effects. 
+
+\item \addMM{Include test about image position?}
+
+
+\end{enumerate} 
+
+
+\item Responses in Strong controls: Overall preference for pictures that make both readings of the sentence true (\emph{strong} picture). Illustration given in \Cref{fig:controls}.
+
+\begin{figure}[h!]
+  \centering
+      \includegraphics[width=.5\textwidth]{Both-Controls.png}
+         \caption{Strong Control results in Experiments 1 and 2}
+        \label{fig:controls}
+  \end{figure}
+
+
+
+\end{itemize}
+
+\subsection{Discussion}
+Our results suggest that semantic priming is at play: participants' choices in targets are influenced by the reading that was forced in prime trials. 
+
+\begin{itemize}
+
+\item The presence of an interaction between \textsc{Prime} and \textsc{Target} conditions suggests that we are not facing a simple visual priming effect. If a visual priming effect would be at play, we would expect participants to choose the same kind of images in primes and targets across the board. 
+However, the selection of the overt image in primes (weak picture) biased the selection of the same kind of overt picture \emph{only} when prime and target belong to the same condition (distributive or collective). In contrast, whenever primes and targets were of different conditions, the selection of the overt picture resulted on an increased of blur choices in targets. 
+
+\item One might still think that visual priming is at play, but participants are sensitive to the polarity of the adjective in such a way that whenever prime and target involve predicates of different polarity (which is equivalent to being of different conditions), they are \emph{anti}-primed: they are primed to \emph{not} choosing the same image in targets as they did in primes. This kind of effect could also give rise to the attested interaction and it's difficult to completely ruled our with our paradigm. 
+However, given that we used different predicates, this hypothesis seems rather unlikely (\addMM{Subjects should get anti-priming effects for cheap to heavy, for instance}). 
+\addMM{This might be controlled for if we do the across-predicates experiment, from transitive to intransitive and vice versa)}
+
+\end{itemize}
+
+\paragraph{Asymmetric priming}
+In Maldonado et al (2017), an asymmetry between distributive and non-distributive priming was found, such that distributive primes could influence target selection, but non-distributive primes behave just like baselines (i.e. targets after no prime). 
+\begin{itemize}
+\item Maldonado et al (2017) compared distributive priming to \emph{cumulative} priming. It would be interesting to test whether this asymmetry is also presented for collective vs. distributive. 
+
+\item Distributive readings are thought to be derived from non-distributive readings, independently of whether they are cumulative or collective. If the specific mechanism responsible for distributivity can be primed, we would expect an asymmetry of priming effect (even when both effects are at play). 
+
+\item In our experiment, we cannot see whether there is priming in both directions or only in one. In order to see that, we needed a baseline rate of target responses in absence of semantic priming.
+
+\end{itemize}
+
+\paragraph{Verification strategies}
+An alternative explanation of the results could lay on priming of a specific verification strategy. 
+
+\begin{itemize}
+
+\item When participants face a collective prime, they can decide which picture to choose based on whether the scale containing the 2 tokens satisfies the predicate or not. Instead, when participants face a distributive prime, they need to do exactly the opposite: check for the two left-most scales which have individual tokens. 
+
+\item After being forced to apply one of these two verification strategies in primes, participants might want to use the same strategy in targets. This would lead to: participants choosing overt pictures more often for Collective-Collective and Distributive-Distributive pairs (when they can apply the strategy), and blur pictures for Collective-Distributive and Distributive-Collective pairs (when they cannot apply the strategy). 
+
+\item A priming of this verification strategy would result exactly on the same pattern of result we have observed. 
+
+\item Experiment 2 was designed to rule out this alternative explanation of the results. 
+
+\end{itemize}
+
+
+
+
+\section{Experiment 2}
+
+Experiment 2 was similar to Experiment 1 except that we included experimental units where we replaced primes trials with baselines trials. On top of the four prime-target combinations of Experiment 1, Experiment 2 included four \emph{baseline}-target combinations. An example of these four combinations is provided in \Cref{fig.examples.item.baselines}. 
+
+\begin{itemize}
+\item Baseline trials displayed sentences that do not present the collective/distributive ambiguity, together with a \emph{correct} picture and a \emph{foil} picture. Correct pictures were always similar to \emph{weak} pictures in prime trials in that they present ``mismatching'' scales. Participants had to choose the same type of image as in primes, but, since the sentence was not ambiguous, we were not biasing one specific interpretation. 
+Target responses after baseline trials should provide us a rate of the baseline preference for each reading.  
+
+\item For each prime condition, there was a corresponding baseline. Therefore, there were  \emph{Collective-Baselines} and \emph{Distributive-Baselines}\footnote{Note that baselines do not force ``collective'' or ``distributive'' interpretations. However, they \emph{belong} to a collective or a distributive prime condition because they are considered to be the associated baselines}. Each of these baselines has associated one specific verification strategy:
+\begin{itemize}
+\item In \textit{Collective-Baselines}, the sentence always involved a singular definite description together with one picture that made the sentence true, and a foil picture. The foil image falsified the predicate. Importantly, participants could make an accurate decision by only verifying the scale containing the exemplar named in the sentence. These baselines are similar to collective primes in that they involve a ``check-one-scale'' strategy. 
+\item In \textit{Distributive-Baselines}, the sentence included the focus-sensitive operator \emph{only}, which enriches the meaning of the expression by negating its alternatives. A sentence such as \textit{Only the book is light} implies that the book but nothing else is light.  The foil image for this type of baselines will make the sentence false by making the alternatives true. As a result, in order to verify the truth of the sentence, one crucially needs to check the scales containing alternatives to the exemplar. Distributive-Baselines and  Distributive primes give rise to a common verification strategy. 
+\end{itemize} 
+
+\item Predictions 1 : If the effect attested in Experiment 1 was due to priming of a verification strategy rather than a semantic representation, we would expect Collective-Baselines to behave in the same way as Collective primes, while Distributive-Baselines should behave as Distributive primes. Instead, a true semantic priming should lead to an effect only for targets after prime trials, but not after baselines. That is to say, we would expect a three-way interaction between Prime/Baseline Condition, Target Condition and the Type of Trial (baseline or prime). 
+
+\item Predictions 2: Moreover, baselines also serve to test for asymmetric priming effects. If distributive priming is stronger than collective priming, we would expect the difference between targets after distributive primes and after baselines to be significantly bigger than the difference between targets after collective primes and after baselines.  
+
+
+\end{itemize}
+
+
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.95\textwidth]{exp2_baselines.jpeg}
+      \caption{Illustration of baselines and target trials in Experiment 2}
+      \label{fig.examples.item.baselines}
+\end{figure}
+
+
+
+
+
+\subsection{Methods}
+
+\subsubsection{Participants}
+Fifty five participants were recruited using Amazon Turk (F=15). All of them reported English as their native language. 
+
+\subsubsection{Materials}
+
+\begin{itemize}
+\item Sentences and pictures for prime and target trials were the same as in Experiment 1. 
+\item Sentences in baselines were unambiguous sentences (cf. True and Foil controls in Experiment 1). In Collective-baselines, the sentences followed the frame \textit{The} [singular exemplar] \textit{is} [predicate]; in Distributive-baselines they followed the frame \textit{Only the} [singular exemplar] \textit{is} [predicate]. 
+\item Unlike prime trials, predicates in baselines were picked randomly among the two antonyms of one pair. Exemplars vary with the specific predicate. 
+\
+ \item \addMM{NB: Baselines included pictures where the relevant object (exemplar) was in different positions. As a result, the relevant box to look at might not be \emph{exactly} the same one as in targets. For instance, it could be that the relevant scale was the middle one, so a ``collective'' verification strategy would involve checking the middle box instead of the third one (as it's always the case in targets). Still, the difference between C and D baselines is whether you need to check one or two scales (independently of which scale). I did a subset of the baseline data to cases where the scale containing the exemplar was the third one, and checked visually whether , and the plots look identical when I subset to these data.}
+
+\item  We included the same control trials as in Experiment 1. 
+\end{itemize}
+
+
+\subsubsection{Design}
+
+The experimental design of Experiment 2 was the same as in Experiment 1 except that there was an additional \textsc{Type of Trial} (primes; baselines) factor. We fully-crossed the five factors to obtain 24 experimental triplets (72 trials). There were a further 64 controls randomly inserted between triplets. 
+
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{ccc}
+& \multicolumn{2}{c}{\textsc{Type of Trial}}\\
+\hline
+\multirow{2}{*}{\textsc{Prime/Baseline Condition}} & Collective Prime &  Collective Baseline \\
+& Distributive Prime &  Distributive Baseline \\
+\end{tabular}
+\end{center}
+\caption{Items in Experiment 2}
+\label{table.factors.exp2}
+\end{table}%
+\nbMM{Doubt: Is it confusing the naming given to baselines?}
+
+
+\subsection{Results}
+
+\begin{itemize}
+\item The same exclusion criteria as Experiment 1 was used: 14 participants were removed from the analyses because their accuracy rates in True and Foil Controls were below 75\%. 
+
+\item Accuracy in primes and baselines was above 89 percent (Collective primes: 93\% (SE:2); Collective Baseline: 94\% (SE: 2); Distributive primes: 91\%(SE: 2); Distributive baseline 89\% (SE:3)) . We removed all target trials that were not preceded by two correct prime responses. 
+
+\item Analyses of Target responses (in \Cref{fig:targetresults.exp2})
+\begin{itemize}
+\item Three-way interaction \textsc{Target condition} $\times$ \textsc{Type of trial} $\times$ \textsc{Prime/Baseline condition} ($\chi^{2}=18.4; \ p<.001$), suggesting that primes and baselines have a different influence in target trials.
+\item Interaction \textsc{Target condition} $\times$ \textsc{Prime/Baseline condition} when restricted to primes ($\chi^{2}=59.5;\  p<.001$): Replication of Experiment 1 results (different primes have a different influence in target trials)
+\item Interaction \textsc{Target condition} $\times$ \textsc{Prime/Baseline condition} when restricted to baselines ($\chi^{2}<1; \ p=87$). This indicates that the two different verification strategies that might be at play in the two baseline do not give rise to priming effects. 
+\item Interaction \textsc{Target condition} $\times$ \textsc{Type of trial} when restricted to primes, when restricted to the \emph{distributive} prime condition ($\chi^{2}=13.7; \ p<.001$)
+\item Interaction \textsc{Target condition} $\times$ \textsc{Type of trial} when restricted to primes, when restricted to the \emph{collective} prime condition ($\chi^{2}=6; \ p=.014$)
+\item \addMM{I think we should include a comparison of the difference Distributive Prime vs.  Baseline and Collective Prime vs. Baseline to test the asymmetry.}
+\end{itemize}
+
+\item As in Experiment 1, \textit{Strong controls} show an overall preference for situations that make both readings of the sentence true (see \Cref{fig:controls}). 
+
+\end{itemize}
+
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=.6\textwidth]{Targets-Experiment2.png}
+         \caption{Target results in Experiment 2}
+        \label{fig:targetresults.exp2}
+    \end{figure}
+
+
+\subsection{Discussion}
+
+\begin{itemize}
+\item The results of Experiment 2 suggest that the distributive/collective ambiguity in sentences involving mixed predicates gives rise to priming effects independently of the verification strategy at play. 
+
+\item Targets after each baseline do not behave differently from each other, suggesting that the verification strategy used in primes is not responsible for the priming effects found in Experiment 1. 
+
+\item Target responses after baseline trials suggest that, at least in the context of the experiment, participants have a preference for collective interpretations. The rate of `blur' responses in Collective targets (which are consistent with accessing the distributive reading of the sentence) is significantly lower than after Distributive targets (poshoc analysis indicate a main effect of \textsc{target condition} for trials after baselines: $\chi^{2} = 38; \ p<.001$). 
+
+\item In contrast with previous experiments, we found a significant effect in both directions (collective and distributive priming; although see if we correct for multiple comparisons). Still, there is an asymmetry: the effect of distributive primes is stronger than the effect of collective primes. As before, we can think that this is related with the presence of the D operator. The insertion of this D operator might be specifically primed. 
+
+\end{itemize}
+
+\section{General Discussion}
+
+\begin{itemize}
+
+\item Our findings suggest that distributive readings that do not involve covariation can be specifically primed, suggesting that (1) our previous experiment was reflecting (at least partially) priming of semantic representations independently of the verification strategy, and (2) distributivity can be dissociated from one specific verification strategy as well as from other phenomena involving co-variation, such as some scope assignments.  
+
+\item Moreover, the results here provide evidence regarding a distributive vs. non distributive ambiguities: no previous paper have focused in priming of collective vs. distributive interpretations (Maldonado et al 2017 focused on cumulative/distributive contrast).
+
+\item Priming of semantic representation arises independently of whether the reading is strong or weak. This serves to support the view that we’re facing a true ambiguity.  
+
+\item Asymmetry and inverse preference patterns: 
+
+\begin{itemize}
+\item Maldonado et al 2017 found that the asymmetry in the priming effect could not be simply explained by means of an inverse preference effect, such that structural priming is stronger for dispreferred or infrequent structures (review in Ferreira and Bock, 2006; Pickering and Ferreira, 2008). 
+\item Indeed, baseline rates in Maldonado et al 2017 did not indicate a dispreferrence for distributive readings. 
+
+\item However, in our experiment, baseline rates did indicate a preference for collective interpretations. While we have claimed that an asymmetric effect could be accounted for by priming of the specific mechanism used to derived distributive readings, this asymmetry could be alternatively explained as the result of an inverse preference effect. 
+
+\end{itemize}
+
+
+
+\item Further questions:
+\begin{itemize}
+\item Is the exactly the same mechanism which is at play in the derivation of distributive readings of transitive and adjectival predicates?
+
+\end{itemize}
+
+
+\end{itemize}
+
+
+
+
+\end{document}

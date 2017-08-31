@@ -1,0 +1,1180 @@
+#
+# Results on Sunday April 02 2017 18:36:14 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,0,0,00,NULL,,yes
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,0,0,00,NULL,_REACTION_TIME_,19642
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,3125
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,2835
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,2,NULL,2389
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,4097
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,3561
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,2619
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,2792
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,2483
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,1955
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,4285
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,4529
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,2067
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,2230
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,1733
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,2235
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,2088
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,1904
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,1600
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,2060
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,1,NULL,1655
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,2353
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,2,NULL,2616
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,2593
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,2834
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,2167
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,2120
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,1971
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,1495
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,2058
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,2165
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,1206
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,2481
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,1671
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,2001
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,1598
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,1671
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,1599
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,2730
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,1647
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1452
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,1532
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,978
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,1908
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,1321
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,1682
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,1628
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1703
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,2028
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,1608
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,1922
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1388
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1755
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,1585
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,1539
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,1513
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,955
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,1198
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,1435
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,1690
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,1,NULL,2126
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1356
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,1902
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,1283
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,1969
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1352
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1281
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,1633
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1137
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,1657
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1461
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,1354
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1219
+1491158174,ed6024ace5513799e6d34825595b7acc,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,1271
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,year,1968
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,language,English
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,idturk,A3135Y3RMFC3PK
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,comment,
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,sex,female
+1491158174,ed6024ace5513799e6d34825595b7acc,NewForm,76,0,form,NULL,_REACTION_TIME_,29913
+#
+# Results on Sunday April 02 2017 18:37:17 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,0,0,00,NULL,,yes
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,0,0,00,NULL,_REACTION_TIME_,4696
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,2,0,practice,NULL,The bags are heavy.,2,NULL,1733
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,5817
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,11557
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,2,NULL,1380
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,2,NULL,3455
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,4332
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,3485
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,1,NULL,4810
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,4642
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,1,NULL,4631
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,9959
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,2,NULL,4807
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,9164
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,1,NULL,8119
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,2,NULL,7755
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,2,NULL,5820
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,1,NULL,8448
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,2,NULL,2457
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,8036
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,1,NULL,3159
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,19906
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,4315
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,2280
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,1,NULL,4112
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,5046
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,2,NULL,2240
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,1,NULL,4078
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,2,NULL,3523
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,2200
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,1,NULL,7470
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,4172
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,2,NULL,4468
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,2,NULL,3517
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,2,NULL,3560
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,5242
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,2,NULL,13532
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,2,NULL,4220
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,2,NULL,2364
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,2,NULL,2895
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,2,NULL,2797
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,2,NULL,2450
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1978
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,2004
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,3057
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,2,NULL,3038
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,1,NULL,1595
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,2,NULL,1917
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,2,NULL,2737
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1777
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,1,NULL,1294
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,1706
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,2,NULL,1722
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,2,NULL,2704
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,1,NULL,1480
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,2,NULL,2160
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,1653
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1358
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,1,NULL,1328
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,2,NULL,1988
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,1,NULL,1996
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,1863
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,1,NULL,4670
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,2428
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,3888
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,1,NULL,1865
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,9980
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,2,NULL,1712
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,5521
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,2,NULL,2741
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,1502
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1568
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,1,NULL,2101
+1491158238,7009040b596e715546cebf8d9f8f45f9,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,1,NULL,1651
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,year,1996
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,language,English 
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,idturk,AAPVJFYLS6D4D
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,comment,Fun%2C thanks
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,sex,male
+1491158238,7009040b596e715546cebf8d9f8f45f9,NewForm,76,0,form,NULL,_REACTION_TIME_,34456
+#
+# Results on Sunday April 02 2017 18:40:55 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,0,0,00,NULL,,yes
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,0,0,00,NULL,_REACTION_TIME_,9676
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,3316
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,9213
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,1,NULL,3298
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,2,NULL,5308
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,1,NULL,5552
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,1,NULL,5188
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,4559
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,9029
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,5155
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,2,NULL,3841
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,4203
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,4187
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,2676
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,3323
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,5422
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,4504
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,3521
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,5261
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,2516
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,1,NULL,3453
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,4313
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,3158
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,2645
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,2648
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,3797
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,3234
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,3255
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,2966
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,3418
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,3429
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,5079
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,3280
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,2616
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,2249
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,3550
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,2320
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2779
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,2246
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,3299
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,2237
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,2078
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,2079
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,1963
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,2826
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,1,NULL,3618
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,1868
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,1993
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1986
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,2991
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1406
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,1723
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,2802
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,1931
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,1167
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,2822
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,1816
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,2651
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1870
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,2653
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,1760
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,2642
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,4043
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,2006
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1713
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,2314
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1893
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,2262
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,1,NULL,2156
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,3184
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,2,NULL,3262
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,2357
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,3730
+1491158455,29465014376535ac4217e024edcd0e03,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,2443
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,year,1981
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,language,English
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,idturk,A1TMF8Z3VT364E
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,comment,
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,sex,female
+1491158455,29465014376535ac4217e024edcd0e03,NewForm,76,0,form,NULL,_REACTION_TIME_,11393
+#
+# Results on Sunday April 02 2017 18:47:06 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,0,0,00,NULL,,yes
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,0,0,00,NULL,_REACTION_TIME_,28249
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,1640
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,4538
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,116853
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,7861
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,15731
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,14882
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,41445
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,2900
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,3052
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,1,NULL,9022
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,40132
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,1997
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,1798
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,1332
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,1844
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,2,NULL,1972
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,28820
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,1852
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,44887
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,1629
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,1541
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,1484
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,1,NULL,2572
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,105518
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,2117
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,1205
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,1429
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,44852
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,1340
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,1116
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,1445
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,1229
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,1,NULL,1382
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,1429
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,1419
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,1526
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,1053
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,1324
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,892
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,1245
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1389
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,1667
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1011
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1157
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,1195
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,1789
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,1293
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,981
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,2005
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,1037
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,1390
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,3869
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,1164
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,1462
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,49155
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,59966
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1037
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,1206
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,966
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,2,NULL,1573
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1045
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1005
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,1195
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,989
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,1109
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,2,NULL,1004
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,924
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1286
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1612
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,965
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,16981
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,901
+1491158827,1b012569841ea44e0881c0da01223a30,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,942
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,year,1983
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,language,English
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,idturk,A1MWBOD8SQ9P2Z
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,comment,Have a great day
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,sex,male
+1491158827,1b012569841ea44e0881c0da01223a30,NewForm,76,0,form,NULL,_REACTION_TIME_,21714
+#
+# Results on Sunday April 02 2017 18:51:41 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.41 Safari/537.36
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,0,0,00,NULL,,yes
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,0,0,00,NULL,_REACTION_TIME_,483834
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,2,0,practice,NULL,The bags are heavy.,2,NULL,10399
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,6638
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,8933
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,5684
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,3548
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,2465
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,5040
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,2763
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,480392
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,12278
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,3014
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,3049
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,2,NULL,3355
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,2212
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,2,NULL,7064
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,3881
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,5914
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,2755
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,2236
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,4317
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,71714
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,2155
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,2220
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2241
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,2862
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,3111
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,3708
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,5129
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,3375
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,4736
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,5279
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,2108
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,6651
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,2556
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,1681
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,3192
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,2076
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,2677
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,2673
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1853
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,2233
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,2858
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,4770
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1942
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,2324
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,2659
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,3062
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,1,NULL,2926
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1441
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1894
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,1873
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,1471
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,2956
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,2178
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,2469
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,2318
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,3523
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,2148
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,3181
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,2374
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,2237
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,2447
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,2276
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,4247
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1627
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,65457
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,2217
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,2024
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,3715
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,1561
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,1829
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,2923
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,2,NULL,1462
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,year,1990
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,language,English
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,idturk,AKSJ3C5O3V9RB
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,comment,
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,sex,female
+1491159102,7df7fd2873d2d35a1d47a19128efb0c9,NewForm,76,0,form,NULL,_REACTION_TIME_,15870
+#
+# Results on Sunday April 02 2017 18:56:04 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36
+# Design number was non-random = 4
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159364,755191b92f1d54362491735956a1d489,NewForm,0,0,00,NULL,,yes
+1491159364,755191b92f1d54362491735956a1d489,NewForm,0,0,00,NULL,_REACTION_TIME_,9666
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,2,0,practice,NULL,The bags are heavy.,2,NULL,15796
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,13062
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,10678
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,2,NULL,9867
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,2,NULL,20013
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,2,NULL,16057
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,2,NULL,5962
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,1,NULL,11745
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,3564
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,3759
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,2478
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,2,NULL,3443
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,2908
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,1,NULL,2275
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,1,NULL,2820
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,1,NULL,1618
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,2,NULL,2163
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,1,NULL,1948
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,2306
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,6140
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,4470
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,4280
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,1778
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,2299
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,3799
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,1996
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,12455
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,7001
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,2576
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,4115
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,2103
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,1013
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,1574
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,1592
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,6349
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,3560
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2134
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,2540
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,3238
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,2105
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1653
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,1519
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,2726
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,2293
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,6685
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,2690
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,2556
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,7478
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1869
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1866
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,3494
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,2,NULL,2567
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1374
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1651
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,11902
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1923
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,3371
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1973
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,1651
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,2497
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,3016
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,2,NULL,2390
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1432
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,2581
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,2588
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,1451
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,2391
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,1714
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,9892
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,1,NULL,1458
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,1,NULL,21818
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1771
+1491159364,755191b92f1d54362491735956a1d489,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1667
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,year,1988
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,language,English
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,idturk,A3N0QZ9ZKUCTCQ
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,comment,
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,sex,male
+1491159364,755191b92f1d54362491735956a1d489,NewForm,76,0,form,NULL,_REACTION_TIME_,24089
+#
+# Results on Sunday April 02 2017 18:57:19 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+# Design number was non-random = 5
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,0,0,00,NULL,,yes
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,0,0,00,NULL,_REACTION_TIME_,5335
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,6435
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,20917
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,9813
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,4974
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,5197
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,3646
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,5183
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,3614
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,4142
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,2327
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,3566
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,2918
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,3023
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,3479
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,2431
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,4870
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,2207
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,3158
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,2453
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,2456
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,3350
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,1967
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,2559
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,3278
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,2846
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,2079
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,1990
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,7405
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,4015
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,2046
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,2,NULL,2607
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,1806
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,1606
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,1710
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2960
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,3350
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,2334
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,3733
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,1484
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,1647
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,4343
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,2,NULL,1702
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,2,NULL,2118
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,2158
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,1,NULL,1566
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,3607
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,2350
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,1263
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,2654
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,1231
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1940
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1759
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,2,NULL,1837
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,1830
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1463
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,1615
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,2102
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,1391
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,1975
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,1349
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1766
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1599
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,2958
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,1487
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,2,NULL,1598
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,1366
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,2270
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,2047
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1607
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1438
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1543
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,1,NULL,1206
+1491159440,c69e7e0c88414510eee03f8858497a12,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,5895
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,year,1987
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,language,English
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,idturk,A2CYD8QD1JO0O5
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,comment,
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,sex,male
+1491159440,c69e7e0c88414510eee03f8858497a12,NewForm,76,0,form,NULL,_REACTION_TIME_,23455
+#
+# Results on Sunday April 02 2017 19:01:29 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36
+# Design number was non-random = 7
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,0,0,00,NULL,,yes
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,0,0,00,NULL,_REACTION_TIME_,10213
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,1770
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,2351
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,1142
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,2,NULL,927
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,1,NULL,827
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,1,NULL,571
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,2,NULL,304
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,501
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,2,NULL,174
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,276
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,2,NULL,287
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,150
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,1,NULL,177
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,177
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,2,NULL,129
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,137
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,2,NULL,119
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,158
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,1,NULL,121
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,116
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,211
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,20
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,206
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,1,NULL,82
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,185
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,2,NULL,152
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,1,NULL,98
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,2,NULL,123
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,2,NULL,142
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,1,NULL,97
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,2,NULL,91
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,152
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,1,NULL,88
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,121
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,2,NULL,152
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,100
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,2,NULL,100
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,1222
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,2,NULL,151
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,2,NULL,119
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,1,NULL,128
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,2,NULL,91
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,143
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,118
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,2,NULL,42
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,159
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,136
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,1,NULL,121
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,72
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,2,NULL,153
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,105
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,2,NULL,65
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,137
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,130
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,2,NULL,47
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,154
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,129
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,2,NULL,30
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,2,NULL,153
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,1,NULL,96
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,81
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,169
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,1,NULL,28
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,153
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,176
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,2,NULL,4
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,2,NULL,173
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,1,NULL,167
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,2,NULL,83
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,1,NULL,201
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,2,NULL,57
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,169
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,1,NULL,49
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,year,1987
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,language,English
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,idturk,A3FAH5S2RGZ5AK
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,comment,
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,sex,female
+1491159690,7af58d4956d746b05b5454bbbe91d7fe,NewForm,76,0,form,NULL,_REACTION_TIME_,20055
+#
+# Results on Sunday April 02 2017 19:14:08 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36
+# Design number was non-random = 8
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,0,0,00,NULL,,yes
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,0,0,00,NULL,_REACTION_TIME_,326783
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,6068
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,4095
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2483
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,2,NULL,10162
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,3744
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,1,NULL,1373
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,8934
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,4333
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,4924
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,4971
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,3620
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,2406
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,2902
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,3358
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,4490
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,1455
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,2643
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,1,NULL,3773
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,23005
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,2215
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,1078
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,2620
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,3668
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,2158
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,1,NULL,2336
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,2704
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,1815
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,1505
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,2,NULL,1851
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,6233
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,4586
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,2399
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,2354
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,3496
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,4030
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,2225
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,2348
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,4441
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1860
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,1597
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,1593
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,2031
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1677
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,2,NULL,1577
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,2405
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,1027
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,3257
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1777
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,2331
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1778
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,1,NULL,1368
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,2504
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1703
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,1,NULL,5493
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,1832
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,3113
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,3749
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,1794
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,1,NULL,2462
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,3248
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,1,NULL,2084
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,4276
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1721
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,1271
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,2278
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,2049
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,1446
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1459
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,3881
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,2117
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,4172
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1730
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,1795
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,year,1984
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,language,English
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,idturk,A2Z750U1HCWVEE
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,comment,
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,sex,male
+1491160449,57e9f1e245631b7f015c0a8545b82b2e,NewForm,76,0,form,NULL,_REACTION_TIME_,19658
+#
+# Results on Sunday April 02 2017 19:33:12 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36
+# Design number was non-random = 9
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,0,0,00,NULL,,yes
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,0,0,00,NULL,_REACTION_TIME_,16402
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Sentence.
+# 9. Chosen picture (Starting from 1).
+# 10. Whether or not answer was correct (NULL if N/A).
+# 11. Time taken to answer.
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,2,0,practice,NULL,The bags are heavy.,1,NULL,6277
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,50,0,2_C-Foil_expensive/cheap_0_cars_C/Foil,NULL,The cars are expensive.,1,NULL,5836
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,41,0,2_Both-Foil_loud/quiet_0_instruments_Foil/Both,NULL,The instruments are loud.,2,NULL,2920
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,69,0,2_D-Foil_expensive/cheap_1_watches_Foil/D,NULL,The watches are cheap.,2,NULL,3133
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,53,0,2_Both-Foil_heavy/light_0_books_Foil/Both,NULL,The books are heavy.,2,NULL,2693
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,58,0,2_Both-Foil_loud/quiet_1_birds_Both/Foil,NULL,The birds are quiet.,1,NULL,3576
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,66,0,2_D-Both_expensive/cheap_1_cars_D/Both,NULL,The cars are cheap.,1,NULL,5220
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,48,0,2_C-Both_expensive/cheap_0_cars_C/Both,NULL,The cars are expensive.,2,NULL,3806
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,63,0,2_D-Foil_loud/quiet_1_instruments_Foil/D,NULL,The instruments are quiet.,2,NULL,8462
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,44,0,2_C-Foil_loud/quiet_0_birds_C/Foil,NULL,The birds are loud.,1,NULL,9206
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,56,0,2_C-Foil_heavy/light_0_bags_C/Foil,NULL,The bags are heavy.,1,NULL,3342
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,55,0,2_C-Both_heavy/light_0_books_Both/C,NULL,The books are heavy.,1,NULL,2726
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,61,0,2_D-Both_loud/quiet_1_instruments_Both/D,NULL,The instruments are quiet.,2,NULL,3070
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,62,0,2_D-Foil_loud/quiet_1_birds_D/Foil,NULL,The birds are quiet.,1,NULL,2606
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,57,0,2_C-Foil_heavy/light_0_books_Foil/C,NULL,The books are heavy.,2,NULL,3150
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,67,0,2_D-Both_expensive/cheap_1_watches_Both/D,NULL,The watches are cheap.,2,NULL,2919
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,72,0,2_D-Both_heavy/light_1_bags_D/Both,NULL,The bags are light.,1,NULL,3390
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,74,0,2_D-Foil_heavy/light_1_bags_D/Foil,NULL,The bags are light.,1,NULL,2880
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,65,0,2_Both-Foil_expensive/cheap_1_watches_Foil/Both,NULL,The watches are cheap.,2,NULL,2365
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,54,0,2_C-Both_heavy/light_0_bags_C/Both,NULL,The bags are heavy.,2,NULL,3142
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,73,0,2_D-Both_heavy/light_1_books_Both/D,NULL,The books are light.,2,NULL,2528
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,68,0,2_D-Foil_expensive/cheap_1_cars_D/Foil,NULL,The cars are cheap.,1,NULL,4382
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,49,0,2_C-Both_expensive/cheap_0_watches_Both/C,NULL,The watches are expensive.,1,NULL,2758
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,64,0,2_Both-Foil_expensive/cheap_1_cars_Both/Foil,NULL,The cars are cheap.,1,NULL,1847
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,70,0,2_Both-Foil_heavy/light_1_bags_Both/Foil,NULL,The bags are light.,1,NULL,2422
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,40,0,2_Both-Foil_loud/quiet_0_birds_Both/Foil,NULL,The birds are loud.,1,NULL,3182
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,59,0,2_Both-Foil_loud/quiet_1_instruments_Foil/Both,NULL,The instruments are quiet.,1,NULL,2220
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,47,0,2_Both-Foil_expensive/cheap_0_watches_Foil/Both,NULL,The watches are expensive.,2,NULL,2543
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,42,0,2_C-Both_loud/quiet_0_birds_C/Both,NULL,The birds are loud.,2,NULL,1782
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,52,0,2_Both-Foil_heavy/light_0_bags_Both/Foil,NULL,The bags are heavy.,1,NULL,2047
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,51,0,2_C-Foil_expensive/cheap_0_watches_Foil/C,NULL,The watches are expensive.,2,NULL,5574
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,45,0,2_C-Foil_loud/quiet_0_instruments_Foil/C,NULL,The instruments are loud.,2,NULL,2486
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,60,0,2_D-Both_loud/quiet_1_birds_D/Both,NULL,The birds are quiet.,1,NULL,3174
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,75,0,2_D-Foil_heavy/light_1_books_Foil/D,NULL,The books are light.,2,NULL,3208
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,71,0,2_Both-Foil_heavy/light_1_books_Foil/Both,NULL,The books are light.,2,NULL,2271
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,43,0,2_C-Both_loud/quiet_0_instruments_Both/C,NULL,The instruments are loud.,1,NULL,1549
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,46,0,2_Both-Foil_expensive/cheap_0_cars_Both/Foil,NULL,The cars are expensive.,1,NULL,2606
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,21,0,a_D_loud/quiet_1_birds_D/AP,NULL,The birds are quiet.,1,NULL,2053
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,6,0,a_Foil_loud/quiet_0_instruments_AP/Foil,NULL,The instruments are loud.,1,NULL,1981
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,27,0,a_D_expensive/cheap_1_cars_D/AP,NULL,The cars are cheap.,1,NULL,1780
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,38,0,a_Both_heavy/light_1_books_AP/Both,NULL,The books are light.,2,NULL,1470
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,22,0,a_D_loud/quiet_1_instruments_AP/D,NULL,The instruments are quiet.,2,NULL,1725
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,7,0,a_Both_loud/quiet_0_birds_Both/AP,NULL,The birds are loud.,1,NULL,2462
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,28,0,a_D_expensive/cheap_1_watches_AP/D,NULL,The watches are cheap.,2,NULL,1423
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,14,0,a_Both_expensive/cheap_0_watches_AP/Both,NULL,The watches are expensive.,2,NULL,1551
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,9,0,a_C_expensive/cheap_0_cars_C/AP,NULL,The cars are expensive.,2,NULL,1767
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,31,0,a_Both_expensive/cheap_1_cars_Both/AP,NULL,The cars are cheap.,1,NULL,1414
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,34,0,a_D_heavy/light_1_books_AP/D,NULL,The books are light.,2,NULL,1750
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,10,0,a_C_expensive/cheap_0_watches_AP/C,NULL,The watches are expensive.,1,NULL,2262
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,4,0,a_C_loud/quiet_0_instruments_AP/C,NULL,The instruments are loud.,1,NULL,1766
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,15,0,a_C_heavy/light_0_bags_C/AP,NULL,The bags are heavy.,2,NULL,2647
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,3,0,a_C_loud/quiet_0_birds_C/AP,NULL,The birds are loud.,2,NULL,2846
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,8,0,a_Both_loud/quiet_0_instruments_AP/Both,NULL,The instruments are loud.,2,NULL,1742
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,23,0,a_Foil_loud/quiet_1_birds_Foil/AP,NULL,The birds are quiet.,2,NULL,1390
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,17,0,a_Foil_heavy/light_0_bags_Foil/AP,NULL,The bags are heavy.,2,NULL,1391
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,20,0,a_Both_heavy/light_0_books_AP/Both,NULL,The books are heavy.,2,NULL,1271
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,5,0,a_Foil_loud/quiet_0_birds_Foil/AP,NULL,The birds are loud.,2,NULL,1494
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,11,0,a_Foil_expensive/cheap_0_cars_Foil/AP,NULL,The cars are expensive.,2,NULL,1734
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,37,0,a_Both_heavy/light_1_bags_Both/AP,NULL,The bags are light.,1,NULL,1470
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,24,0,a_Foil_loud/quiet_1_instruments_AP/Foil,NULL,The instruments are quiet.,1,NULL,1629
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,12,0,a_Foil_expensive/cheap_0_watches_AP/Foil,NULL,The watches are expensive.,1,NULL,1726
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,33,0,a_D_heavy/light_1_bags_D/AP,NULL,The bags are light.,1,NULL,1742
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,19,0,a_Both_heavy/light_0_bags_Both/AP,NULL,The bags are heavy.,1,NULL,1463
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,16,0,a_C_heavy/light_0_books_AP/C,NULL,The books are heavy.,1,NULL,1399
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,29,0,a_Foil_expensive/cheap_1_cars_Foil/AP,NULL,The cars are cheap.,2,NULL,1590
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,30,0,a_Foil_expensive/cheap_1_watches_AP/Foil,NULL,The watches are cheap.,1,NULL,1918
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,18,0,a_Foil_heavy/light_0_books_AP/Foil,NULL,The books are heavy.,1,NULL,1447
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,36,0,a_Foil_heavy/light_1_books_AP/Foil,NULL,The books are light.,1,NULL,1455
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,26,0,a_Both_loud/quiet_1_instruments_AP/Both,NULL,The instruments are quiet.,2,NULL,1310
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,35,0,a_Foil_heavy/light_1_bags_Foil/AP,NULL,The bags are light.,2,NULL,1974
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,32,0,a_Both_expensive/cheap_1_watches_AP/Both,NULL,The watches are cheap.,2,NULL,3095
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,13,0,a_Both_expensive/cheap_0_cars_Both/AP,NULL,The cars are expensive.,1,NULL,1431
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,PictureAccept,25,0,a_Both_loud/quiet_1_birds_Both/AP,NULL,The birds are quiet.,1,NULL,1591
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. Field name.
+# 9. Field value.
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,year,1986
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,language,English
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,idturk,AEWGY34WUIA32
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,comment,
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,sex,male
+1491161592,b6763e33dc03b9a6756209b5ac4d62bf,NewForm,76,0,form,NULL,_REACTION_TIME_,10131

@@ -1,69 +1,116 @@
-mydata <- subset(experimental_items, element.number == 'Target' & Accuracy==TRUE)
 
-## (1) 3-way/Higher order interaction
+##STATS 
+
+## EXPERIMENT 1
+
+# Interaction Condition Prime * Condition Target
+
+mydata.experiment1 <- subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment =='Exp1')
+mydata.experiment1$subject <- factor(mydata.experiment1$subject)
+
+modelfull <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
+                     (1|subject), 
+                   data = mydata.experiment1, 
+                   control=glmerControl(optCtrl=list(maxfun=100000)),
+                   family=binomial)
+
+modelnoint <-  glmer(Blur.Selection~Condition.Prime+Condition.Target + 
+                       (1|subject), 
+                     data = mydata.experiment1, 
+                     control=glmerControl(optCtrl=list(maxfun=100000)),
+                     family=binomial)
+
+anova(modelfull ,modelnoint)
+
+
+#Interaction with Predicate Condition (Matching or Mismatching across Primes and Targets)
+modelfull.predicates <- glmer(Blur.Selection~Condition.Prime*Condition.Target*Predicate_scale + 
+                     (1|subject), 
+                   data = mydata.experiment1, 
+                   control=glmerControl(optCtrl=list(maxfun=100000)),
+                   family=binomial)
+
+model.noint.preducates <- glmer(Blur.Selection~(Condition.Prime+Condition.Target+Predicate_scale)^2+
+                       (1|subject), 
+                     data = mydata.experiment1, 
+                     control=glmerControl(optCtrl=list(maxfun=100000)),
+                     family=binomial)
+
+anova(modelfull.predicates, model.noint.preducates)
+
+
+
+
+###Experiment
+
+#My data
+mydata.experiment2 <- subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment =='Exp2')
+mydata.experiment2$subject <- factor(mydata.experiment2$subject)
+
+## (Result 1) 3-way/Higher order interaction
 model.full <- glmer(Blur.Selection~Condition.Prime.Re*Condition.Target*HOI + 
-                      (1+Condition.Prime.Re*Condition.Target*HOI|subject)+(1|exemplar), 
-                    data = mydata, 
+                      (1|subject), 
+                    data = mydata.experiment2, 
                     control=glmerControl(optCtrl=list(maxfun=100000)),
                     family=binomial)
+
 model.noint <- glmer(Blur.Selection~(Condition.Prime.Re+Condition.Target+HOI)^2+
-                       (1+Condition.Prime.Re*Condition.Target*HOI|subject)+(1|exemplar), 
-                    data = mydata, 
+                       (1|subject), 
+                    data = mydata.experiment2, 
                     control=glmerControl(optCtrl=list(maxfun=100000)),
                     family=binomial)
 
 anova(model.full,model.noint)
 
-## (2) Two-way interaction 
 
-model.2way <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                      (1+Condition.Prime*Condition.Target|subject)+(1|exemplar), 
-                    data = mydata, 
-                    control=glmerControl(optCtrl=list(maxfun=100000)),
-                    family=binomial)
-model.2way.noint <- glmer(Blur.Selection~Condition.Prime+Condition.Target+
-                            (1+Condition.Prime*Condition.Target|subject)+(1|exemplar), 
-                     data = mydata, 
-                     control=glmerControl(optCtrl=list(maxfun=100000)),
-                     family=binomial)
-
-anova(model.full.2way,model.2way.noint)
-
-## (3) Interaction C vs. D
-mydata.primes <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='C')
+## (Result 2) Interaction C vs. D
+mydata.expriment2.primes <- subset(mydata.experiment2, Condition.Prime =='D' | Condition.Prime =='C')
 model.full.primes <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                             (1+Condition.Prime*Condition.Target|subject)+(1|exemplar),  
-                           data = mydata.primes, 
+                             (1|subject),  
+                           data = mydata.expriment2.primes , 
                            control=glmerControl(optCtrl=list(maxfun=100000)),
                            family=binomial)
+
 model.noint.primes <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
-                              (1+Condition.Prime*Condition.Target|subject)+(1|exemplar), 
-                            data = mydata.primes, 
+                              (1|subject), 
+                            data = mydata.expriment2.primes , 
                             control=glmerControl(optCtrl=list(maxfun=100000)),
                             family=binomial)
 
 anova(model.full.primes,model.noint.primes)
 
 
-## (4) Interaction between baselines
-mydata.baseline <- subset(mydata, Condition.Prime !='D' & Condition.Prime !='C')
+## (Result 3) Interaction between baselines
+mydata.experiment2.baselines <- subset(mydata.experiment2, Condition.Prime !='D' & Condition.Prime !='C')
 model.full.baseline <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                               (1+Condition.Prime*Condition.Target|subject)+(1|exemplar), 
-                    data = mydata.baseline, 
+                               (1|subject), 
+                    data = mydata.experiment2.baselines, 
                     control=glmerControl(optCtrl=list(maxfun=100000)),
                     family=binomial)
 model.noint.baseline <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
-                                (1+Condition.Prime*Condition.Target|subject)+(1|exemplar), 
-                     data = mydata.baseline, 
+                                (1|subject), 
+                     data = mydata.experiment2.baselines, 
                      control=glmerControl(optCtrl=list(maxfun=100000)),
                      family=binomial)
 
 anova(model.full.baseline,model.noint.baseline)
 
+model.main.baseline <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
+                               (1|subject), 
+                             data = mydata.experiment2.baselines, 
+                             control=glmerControl(optCtrl=list(maxfun=100000)),
+                             family=binomial)
 
-###OTHER (just in case previous overall models are significant)
-#Interaction D vs. Baseline-only
-mydata.DvsOnly <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='Baseline-only')
+model.nomain.baseline <- glmer(Blur.Selection~Condition.Prime + 
+                               (1|subject), 
+                             data = mydata.experiment2.baselines, 
+                             control=glmerControl(optCtrl=list(maxfun=100000)),
+                             family=binomial)
+
+anova(model.main.baseline,model.nomain.baseline)
+
+## (Result 4) Interaction D vs. Baseline-only
+mydata.DvsOnly <- subset(mydata.experiment2, Condition.Prime =='D' | Condition.Prime =='Baseline-only')
 model.full.DvsOnly  <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
                              (1|subject), 
                            data = mydata.DvsOnly, 
@@ -71,32 +118,17 @@ model.full.DvsOnly  <- glmer(Blur.Selection~Condition.Prime*Condition.Target +
                            family=binomial)
 model.noint.DvsOnly  <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
                               (1|subject), 
-                            data = mydata.DvsOnly, 
+                            data = mydata.DvsOnly,  
                             control=glmerControl(optCtrl=list(maxfun=100000)),
                             family=binomial)
 
 anova(model.full.DvsOnly ,model.noint.DvsOnly)
 
-#Interaction D vs. Baseline-the
-mydata.DvsDef <- subset(mydata, Condition.Prime =='D' | Condition.Prime =='Baseline-the')
-model.full.DvsDef  <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                               (1|subject), 
-                             data = mydata.DvsDef, 
-                             control=glmerControl(optCtrl=list(maxfun=100000)),
-                             family=binomial)
-model.noint.DvsDef <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
-                                (1|subject), 
-                              data = mydata.DvsDef, 
-                              control=glmerControl(optCtrl=list(maxfun=100000)),
-                              family=binomial)
-
-anova(model.full.DvsDef ,model.noint.DvsDef)
 
 
+## (Result 5) Interaction C vs. Baseline-the
 
-#Interaction C vs. Baseline-the
-
-mydata.CvsDef <- subset(mydata, Condition.Prime =='C' | Condition.Prime =='Baseline-the')
+mydata.CvsDef <- subset(mydata.experiment2, Condition.Prime =='C' | Condition.Prime =='Baseline-the')
 model.full.CvsDef  <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
                                (1|subject), 
                              data = mydata.CvsDef, 
@@ -112,18 +144,4 @@ anova(model.full.CvsDef ,model.noint.CvsDef)
 
 
 
-#Interaction C vs. Baseline-only
 
-mydata.CvsOnly <- subset(mydata, Condition.Prime =='C' | Condition.Prime =='Baseline-only')
-model.full.CvsOnly  <- glmer(Blur.Selection~Condition.Prime*Condition.Target + 
-                              (1|subject), 
-                            data = mydata.CvsOnly, 
-                            control=glmerControl(optCtrl=list(maxfun=100000)),
-                            family=binomial)
-model.noint.CvsOnly <- glmer(Blur.Selection~Condition.Prime+Condition.Target + 
-                               (1|subject), 
-                             data = mydata.CvsOnly, 
-                             control=glmerControl(optCtrl=list(maxfun=100000)),
-                             family=binomial)
-
-anova(model.full.CvsOnly ,model.noint.CvsOnly)

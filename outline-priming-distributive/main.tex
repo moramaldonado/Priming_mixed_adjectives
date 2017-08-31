@@ -1,0 +1,239 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[
+  margin=1.5cm,
+  includefoot,
+  footskip=30pt,
+]{geometry}
+
+\usepackage{linguex}
+\renewcommand*{\firstrefdash}{}
+
+
+% Graphics
+\usepackage{graphicx}
+
+% Captions
+\usepackage{caption}
+\captionsetup{%
+  font=small,
+  labelfont=bf
+}
+
+
+\title{Outline: Priming distributive/collective ambiguity with adjectival predicates}
+\author{Mora Maldonado}
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+
+
+\subsection{Phenomena}
+
+
+
+A sentence such as \ref{ex.1} has at least two different readings:
+
+\ex. Mora and Milica built a sand castle. \label{ex.1}
+\a. Mora and Milica built a single sand castle together \hfill{Non distributive reading}
+\b. Mora built a sand castle and Milica built a sand castle (2 sand castles) \hfill{Distributive reading}
+
+
+Now, note that the same type of ambiguity seems to arise in sentences involving certain adjectival predicates:
+
+\ex.The bags are light. \label{ex.2}
+\a. The plurality of bags is light (i.e. The total weight of bags is light) \hfill{Non-distributive reading} 
+\b. Each of the bags is light, but they are not necessarily light together. \hfill{Distributive reading}
+
+
+\subsection{Distributivity and co-variation}
+
+\begin{itemize}
+\item The ambiguity attested in \ref{ex.1} comes from the mixed nature of the predicate. 
+\item Other predicates are either lexically distributive (e.g. Mora and Milica smiled) or lexically collective (e.g. Mora and Milica gathered in the hallway). 
+\item Distributive readings for sentence such as \ref{ex.1} are thought to arise from an optional covert distributive operator $D$ with the semantics of English \textit{each}, which applies the predicate to each atomic member of the subject. 
+
+\ex. 
+\a. Mora and Milica built a sand castle.\\
+    %$\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(Mora\oplus Milica)$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(x,y)$
+\b. Mora and Milica $D$ built a sand castle.\\
+    %$D(\lambda x.\exists y.\mathit{sand- castle}'(y) \wedge \textit{built}'(x,y))(Mora\oplus Milica)$\\
+    $\forall x . (x\preceq_{AT}Mora\oplus Milica) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)$
+
+
+\ex. 
+\a. Mora and Milica painted a sand castle.\\
+    %$\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(Mora\oplus Milica)$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{painted}'(x,y)$
+\b. Mora and Milica $D$ painted a sand castle.\\
+    %$D(\lambda x.\exists y.\mathit{sand- castle}'(y) \wedge \textit{painted}'(x,y))(Mora\oplus Milica)$\\
+    $\forall x . (x\preceq_{AT}Mora\oplus Milica) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{painted}'(x,y)$
+    
+\item Note that here the $D$ operator does two different things:
+\begin{enumerate}
+\item For mixed predicates, applying $D$ guarantees the distributive entailment.
+\item Independently of whether the predicate is compatible with both distributive and non distributive readings, $D$ guarantees the covariation (variables and operators in the VP are applied to each member of the subject)
+\end{enumerate}
+\end{itemize}
+
+
+
+
+a) Covariation is not inherent to distributivity, even for transitive predicates. Applying the distributivity operator to transitive predicates allows covariation but does not force it. For example, the sentence "The boys painted a castle" can describe a situation where each boy painted the same castle (i.e. many paintings, but only one castle). This situation is compatible with a distributive reading (under both scope assignments, and in particular when the indefinite takes wide scope over the distributivity operator). 
+
+
+b) The distributivity operator can be applied to predicates that are *already* distributive. For example, the sentence "The boys saw a person" only has a distributive reading, such that each boy saw a person (no ambiguity arises). On most views, this is a lexical property of the predicate (distributivity is lexically closed?). However, applying the D operator to these distributive predicates is not vacuous: it allows to have covariation of objects (i.e. the sentence is compatible with a situation where each boy saw a different person). 
+
+%I'm not following entirely, partly because I'm not sure that the sentence without the D operator is not compatible with covariation. I wonder whether doing it with "the boys saw a friend of them" could help. But we'll talk about that in person, it's probably not crucial for the presentation and I'm sure you and Benjamin sorted this out.
+
+\subsubsection*{Psycholinguistic approaches/background}
+
+\begin{itemize}
+\item Our study: Priming of covariation: Priming of distributive readings for sentences such as “Two squares are connected to three circles”.
+No visual priming involved. But distributive readings themselves, because of covariaion, might have had associated a verification strategy which was the thing that was primed. 
+\item Covariation and verification strategies
+\end{itemize}
+
+
+\subsection{Distributivity without covariation}
+\begin{itemize}
+\item The two readings in \ref{ex.2} have associated specific entailment paterns. 
+\item These entailment patterns are correlated with the polarity/valence of the predicate: They are reversed once we change the scale (e.g. The bags are heavy)
+\end{itemize}
+
+\begin{table}
+\begin{tabular}{c|c|c|}
+& The bags are heavy & The bags are light.\\
+
+\end{tabular}
+\end{table}
+
+INCLUDE PICTURES (COMPATIBLE WITH D, COMPATIBLE WITH BOTH D AND C)
+
+
+\begin{itemize}
+\item Difference between what happens for the mixed transitive predicates, where one can make the readings independent from each other. 
+
+\item Same contrast with other types of adjectival predicates, which are thought to be stubbornly distributive. 
+
+\item These ambiguities can be explained in the same way as before, by proposing the existence of a D operator which can be added to the predicate\footnote{Notice that it's necessary to propose a specific mechanism to derive distributive readings because distributive readings can be true in situations where collective readings cannot}:
+\end{itemize}
+
+\ex. The bags $D$ are light.\\
+    $\forall x. (x\preceq_{AT}\iota x.\mathit{bags}'(x)) \rightarrow  \textit{light}'(x,y)$
+
+\subsection{Goals}
+
+\begin{enumerate}
+\item Since co-variation probably has associated a specific verification strategy, we would like to see whether we could prime distributive readings that do not involve co-variaion (purely semantic priming)
+Can we find psychological evidence for distributive readings (or D) in absence of covariation? 
+
+\item Investigate priming of interpretations with different strength  - Disambiguation process for cases where there are specific entailment patterns between the readings.
+
+\item Does the distributive/collective ambiguity for adjectival predicates give rise to priming effects?
+
+\end{enumerate}
+
+
+\section{Experiment 1}
+In all of our experiments participants saw a sentence and had to match the sentence with one of two pictures. The sentences referred to the presence of symbols in a set, such as 
+
+For a given sentence, three types of pictures were possible: (a) false pictures, that made both readings false, (b) weak pictures, that made the weak reading true but the strong reading false, and (c) strong pictures that made both readings true. 
+
+
+There were two types of prime trials. First, collective primes, which displayed a false picture and a weak picture, so that partic- ipants would click on the weak picture and access the weak reading. Second, strong primes, which displayed a weak picture and a strong picture. 
+
+We reasoned that participants should click in whatever image makes the sentence true, accessing to each picture. 
+
+In the target trials, participants read another experi- mental sentence and saw two more pictures. One of the pictures was a weak picture, and the other picture was blurred. Participants were instructed that the "blur" option should be selected if they did not feel that the other picture sufficiently captured the sentence meaning (we modeled the ‘‘better picture” method on Huang et al. (2013)).
+
+
+We expected that participants should click on the weak picture if they accessed the weak reading, and opt for the ‘‘Better Picture” option if they accessed the strong reading. Target trials immediately followed prime trials. Consequently, priming of the enriched meaning would be observed when a partic- ipant selected the strong interpretation option more often after the strong prime than after the weak prime (and vice versa).
+
+Primes and targets could instantiate sentences involving either negative or positive adjectives. Therefore, the weak picture could make either the collective or the distirbutive reading true. 
+
+\subsection{Methods}
+
+\subsubsection{Participants}
+\subsubsection{Materials}
+\subsubsection{Design}
+\paragraph{Primes}
+\paragraph{Targets}
+\paragraph{Controls}
+
+\subsubsection{Predictions}
+
+
+\subsection{Result}
+\subsection{Discussion}
+\subsubsection{Asymmetric priming}
+\subsubsection{Verification strategies}
+
+\section{Experiment 2}
+
+Participants saw a sentence and had to match the sentence with one of two pictures. 
+
+\subsection{Methods}
+
+\subsubsection{Participants}
+
+\subsubsection{Materials}
+
+For a given sentence, three pictures:
+false, strong, weak
+
+\subsubsection{Design}
+
+\paragraph{Primes}
+Choice between 
+
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=.6\textwidth]{BLUR_targets-HOI.png}
+%     \caption{Results Targets.}\label{fig:target.results}
+% \end{figure}
+
+
+\paragraph{Targets}
+In target trials, participants read an ambiguous sentence such as \ref{ex.2} and saw two pictures. One of the pictures was an overt picture that made true only the \textit{weak} reading of the sentence.  The other picture was blurry so participants could not see the description inside. Participants were instructed that the Blur option should only be chosen if the other picture could not capture the meaning of the sentence. 
+\\
+INCLUDE PICTURE
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=.6\textwidth]{BLUR_targets-HOI.png}
+%     \caption{Results Targets.}\label{fig:target.results}
+% \end{figure}
+
+\paragraph{Controls}
+
+\subsubsection{Procedure}
+
+\subsection{Results}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=.6\textwidth]{BLUR_targets-HOI.png}
+    \caption{Results Targets.}\label{fig:target.results}
+\end{figure}
+
+
+
+\begin{itemize}
+\item \textsc{Result 1:} 3-way interaction Condition.Target $\times$ Type $\times$ Condition.Prime
+\item \textsc{Result 2:} 2-way interaction Condition.Target $\times$ Condition.Prime in Prime trials, C vs. D
+\item  \textsc{Result 3:} Differences between D trials and Baselines, Type $\times$ Condition.Target 
+\item  \textsc{Result 4:} Differences between C trials and Baselines, Type $\times$ Condition.Target 
+\end{itemize}
+
+\section{Discussion}
+
+\section{General Discussion}
+\subsection{Inverse preference patterns}
+
+
+\end{document}

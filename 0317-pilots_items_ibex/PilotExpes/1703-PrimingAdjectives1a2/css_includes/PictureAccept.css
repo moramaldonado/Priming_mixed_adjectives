@@ -1,0 +1,95 @@
+.Question {
+    margin-left: 0;
+    padding-left: 0;
+}
+.sentence {
+    font-size: 2em;
+    vertical-align: middle;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 0 ;
+    font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+img {
+  border: 2px solid #08396d;
+  width: 30em;
+  padding: 3px;
+  margin: 0em;
+  float: center;
+  border-radius: 20px;
+    
+  
+}
+.instructions-text {
+    font-style: italic;
+    padding-top: 1em;
+    font-size: small;
+    font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+li.normal-answer {
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 1em;
+}
+li:hover.normal-answer {
+    cursor: pointer;
+}
+li.scale-box {
+    float: left;
+    list-style: none;
+    margin-left: 1em;
+    margin-right: 0em;
+    margin-top: 0em;
+    padding: 0em;
+    text-align: center;
+}
+.scale-comment-box1 {
+    float: centre;
+    list-style: none;
+    margin-left: 0em;
+    padding-left: 0em;
+    margin-right: 1em;
+    padding-right: 18em;
+    padding-top: 4em;
+    width: 100px;
+    height:30px;
+    box-align: left;
+    text-align: left;
+    font-style: italic;
+  font-size: 1.5em;
+  font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.scale-comment-box2 {
+    float: centre;
+    width: 100px;
+    height:30px;
+    box-align: right;
+    list-style: none;
+    margin-left: 0em;
+    padding-left: 20em;
+    margin-right: 1em;
+    padding-right: 0em;
+  font-size: 1.5em;
+    padding-top: 0em;
+    text-align: right;
+    font-style: italic;
+  font-family:   "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+li.scale-box a {
+    text-decoration: none; 
+    display: block;
+    vertical-align: middle;
+}
+li.scale-box a:hover {
+    text-decoration: none;
+    display: block;
+    vertical-align: middle;
+}
+span.fake-link {
+    color: blue;
+    cursor: pointer;
+}
+span:hover.fake-link {
+    cursor: pointer;
+}
+

@@ -1,0 +1,189 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage[
+  margin=2.5cm,
+  includefoot,
+  footskip=30pt,
+]{geometry}
+
+%Examples
+\usepackage{linguex}
+\renewcommand*{\firstrefdash}{}
+
+%Math
+\usepackage{amsmath, stmaryrd}
+\usepackage{centernot}
+
+% Graphics
+\usepackage{graphicx}
+\graphicspath{{./fig/}} %path 
+\usepackage{subcaption}
+
+%Table
+\usepackage{multirow}
+% Captions
+\usepackage{caption}
+\captionsetup{%
+  font=small,
+  labelfont=bf
+}
+
+%Colors
+%\usepackage[dvipsnames]{xcolor}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+
+% Comments
+\newcommand{\changeMM}[2]{{\leavevmode\color{red}{\scriptsize\st{#1}}~\color{Blue1}#2}}
+\newcommand{\nbMM}[1]{{\leavevmode\color{red}{\scriptsize#1}}}
+\newcommand{\addMM}[1]{{\leavevmode\color{red}#1}}
+
+%References
+\usepackage{hyperref}
+\usepackage{cleveref}
+
+
+%Information
+\title{Priming adjectival mixed predicates}
+\author{Maldonado, Chemla, Spector}
+
+
+\begin{document}
+\maketitle
+
+
+\section{Introduction}
+Sentences such as \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} give rise to at least two different interpretations: a non-distributive \emph{collective} reading, illustrated in (a), and a \emph{distributive} reading, illustrated in (b). 
+
+\ex. The girls built a sand castle. \label{ex.transitive.mixed}
+\a. The girls built a single sand castle together. 
+\b. One girl built a sand castle and the other girl built a different sand castle.  
+
+\ex.The bags are heavy. \label{ex.adjectival.mixed}
+\a. The total weight of the bags is heavy without each bag being heavy. 
+\b. The weight of each bag is individually heavy (and therefore the total weight is heavy as well).  
+
+In their non-distributive reading, sentences \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} are true as long as the predicate can denote a property of the plural subject as a whole, without necessarily being true of each individual member. 
+Distributive readings, instead, are diagnosed by the existence of a \emph{distributive entailment} such that whenever the predicate is applied to the plural subject, it is inferred to be individually true of each atomic member of that subject. 
+
+This multiplicity of meanings is thought to arise from the `mixed' nature of the VP predicate  (Link 1991, Champollion, to appear), which can apply either at the group level or at the individual level. On most views, these two interpretations of `mixed' predicates can be distinguishable at the semantic level: each type of reading is derived through different interpretation rules, resulting on distinct semantic representations (CITE). Importantly, while interpretation rules might be reading-specific, they are assumed to be shared by all `mixed' predicates (general nature). 
+
+At this point, a natural question to ask is whether these \emph{abstract} semantic rules and representations are independently constructed during comprehension. A direct way of tackling this question is by testing whether distributive and collective readings can be independently \emph{primed}.  Structural priming refers to a facilitation in the comprehension of a structure after the same structure has been recently processed (see Pickering \& Ferreira 2008 for a review), and it has shown to be a good way of tapping onto abstract representations (Raffray \& Pickering 2010, Chemla \& Bott 2015, Feiman \& Snedeker 2016, among others). 
+Indeed, a recent study by Maldonado et al (2017) has shown that a similar ambiguity to the one presented above, in this case between distributive and non-distributive \emph{cumulative} readings of sentences involving more than one plural expression (e.g. ``Two squares are connected to three circles.''), can give rise to priming effects.
+
+The main goal of this study is to extend Maldonado et al' results to the collective/distributive ambiguity of adjectival predicates such as `heavy', which have received little attention in the experimental literature. If the same abstract mechanisms are required to derive the non-distributive/distributive contrast across different predicates, we would expect to see priming effects at play for any sentence instantiating the ambiguity, including sentences such as \ref{ex.adjectival.mixed}.
+As we will observe in the following subsections, our approach will furthermore allow us to distinguish between priming/processing of semantic interpretations and priming/processing of the specific verification strategies required to verify a reading in a given scenario. By these means, we will also remove a potential confound in the experimental literature. 
+
+\subsection{Theoretical background}
+Current approaches to plurality assume that non-distributive collective interpretations for sentences such as \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} are obtained by default: they are result of just applying the plural subject to the mixed predicate. 
+Conversely, distributive readings arise from the presence of a (optional) covert distributivity operator $D$ in the semantic representation, whose meaning roughly corresponds to that of adverbial \textit{each} in English (see \ref{doperator}, Link 1991, Champollion REF). The semantic representations for sentences  \ref{ex.transitive.mixed} and \ref{ex.adjectival.mixed} are given in \ref{ex.transitive.mixed.LF} and \ref{ex.adjectival.mixed.LF} respectively. 
+
+
+\ex. \label{doperator} $ \llbracket D \rrbracket = \lambda P.  \ \lambda x \ \forall y[\ y \preceq_{AT} x \rightarrow P(y)]$ \\
+In words: The $D$ operator takes a predicate $P$ and returns a new predicate that is true of a plurality exactly if $P$ is true of all the atomic individuals that make up the plurality. 
+
+\ex.  \label{ex.transitive.mixed.LF}
+	\a.The girls built a sand castle.\\
+    $\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(\iota x.\mathit{girls}'(x))$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(\iota x.\mathit{girls}'(x),y)$
+        \b. The girls $D$ built a sand castle.\label{ex.transitive.mixed.distributive} \\ 
+    $D(\lambda x.\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(x,y))(\iota x.\mathit{girls}'(x))$\\
+    $\forall z . (z\preceq_{AT}\iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(z,y)$
+    
+    \ex. \label{ex.adjectival.mixed.LF}
+\a. The bags are heavy.\\
+ $ \textit{light}'(\iota x.\mathit{bags}'(x),d)$
+\b. The bags $D$ are heavy.\\
+    $\forall z. (z \preceq_{AT}\iota x.\mathit{bags}'(x)) \rightarrow  \textit{light}'(z,d)$
+
+Although the collective/distributive ambiguity is derived in a similar manner for all `mixed' VPs, adjectival and transitive predicates do exhibit some important differences. \vspace{0.5cm}
+
+The first distinction regards the ability of distributive readings to generate additional \emph{covariation effects}, i.e. covariation not intrinsic to distributivity. When the $D$ operator is applied to a `mixed' predicate, the distributive entailment is guaranteed. Moreover, the universal quantification introduced by $D$ will interact with any variables or operators contained in the predicate.
+In \ref{ex.transitive.mixed.distributive}, for example, the indefinite object (\textit{a sandcastle}) is in the scope of the distributivity operator; therefore, the sandcastle is allowed to covary with each member of the subject (i.e. with each girl). 
+Indeed, given that \textit{built a sandcastle} is a predicate of creation, the distributive reading will \emph{always} result on covariation of castles: since the same castle cannot be built more than once, if there is more than one building event, there will also be more than one castle. As a result, under its distributive reading, \ref{ex.transitive.mixed.distributive} will \emph{always} describe a scenario where there is covariation of castles per girl. 
+
+Covariation, however, is not inherent to distributivity. Besides the case of intransitive predicates (where there is no object to covary), distributive readings of transitive predicates are also often compatible with non-covariation situations. 
+For example, sentence \ref{ex.transitive.mixed.paint} is compatible with three different types of scenarios, illustrated in a-c. 
+
+\ex. The two girls painted a sand castle. \label{ex.transitive.mixed.paint}
+\a. The two girls painted a single sand castle together without each separately doing so. \label{ex.transitive.mixed.paintA}
+\b.  The two girls painted each a different sand castle .\label{ex.transitive.mixed.paintB}
+\c. The two girls painted each the same sand castle .\label{ex.transitive.mixed.paintC}
+
+\ex. \label{ex.transitive.mixed.paint.LF}
+\a. \label{ex.transitive.mixed.paint.LF.A} The girls painted a sand castle.\hfill{Non-distributive reading}\\
+    %$\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(Mora\oplus Milica)$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{painted}'(\iota x.\mathit{girls}'(x), y)$
+\b. \label{ex.transitive.mixed.paint.LF.B} The girls $D$ painted a sand castle.\hfill{Distributive reading}\\
+    $\forall z . (z\preceq_{AT} \iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{painted}'(z,y)$
+    
+
+Assuming that the sentence can have the two representations in \ref{ex.transitive.mixed.paint.LF}, one can easily notice that the non-distributive reading in \ref{ex.transitive.mixed.paint.LF.A} is true in  situation \ref{ex.transitive.mixed.paintA}, whereas the distributive reading in \ref{ex.transitive.mixed.paint.LF.B} is true in situation \ref{ex.transitive.mixed.paintB}. What can then be predicted for scenario \ref{ex.transitive.mixed.paintC}? The $D$ operator in \ref{ex.transitive.mixed.paint.LF.B} requires the existence of different painting events per girl, but not of different sand castles. Consequently, the scenario in (c) will also make the distributive reading true\footnote{As a matter of fact, the scenario in X(c) will also make true a distributive reading where the indefinite takes wide scope above the $D$ operator.}. 
+
+Of less relevance to our purposes is whether or not situation \ref{ex.transitive.mixed.paintC} also makes the non-distributive reading true. A common assumption in plural semantics is that predicates are \emph{lexically cumulative} (Scha 1991, Kratzer 2007, Champollion diss): whenever the predicate is true of individuals, it's also true of the plurality made up of them. Under this view, both distributive and non-distributive readings of the sentence are true in  \ref{ex.transitive.mixed.paintC}. \addMM{This scenario would then make impossible to dissociate the two readings, and  the covariation situations will be the only ones where distributive interpretations can be isolated.} 
+
+
+\vspace{0.5cm}
+Another relevant difference between adjectival and transitive `mixed' predicates lies on the logical relation between their possible readings. 
+While collective and distributive interpretations of sentences such as \ref{ex.transitive.mixed} are presumably logically independent, for most adjectival mixed predicates, these two readings are in an entailment scale, such that one of the readings entails the other. 
+
+For the sake of the explanation, let us consider again the example in  \ref{ex.adjectival.mixed}. A scenario that makes the distributive reading of the sentence true (i.e. the weight of each individual bag is heavy) also makes the collective reading true. The distributive interpretation \emph{entails} the collective interpretation. This entailment, however, is not symmetric: the collective reading of \ref{ex.adjectival.mixed} can be true while the distributive reading is false. 
+
+The direction of the entailment between the two readings --i.e., how the two readings are placed on the entailment scale-- depends on the polarity/valence of the predicate; specifically, the entailment direction is the opposite one for two antonyms. Two gradable adjectives are antonyms (e.g. `heavy' and `light') when they use the same dimension (scale), but they have an opposite ordering of degrees on this dimension (Kennedy 1999; Rett 2008, among others). In principle, the difference between positive and negative adjectives can be thought of as the difference between an increasing or a decreasing ordering of degrees.
+
+As illustrated in \Cref{table.readings.polarity}, a sentence involving a mixed \emph{negative} adjective (e.g. \textit{The bags are light}) has a collective reading that entails the distributive reading. The distributive interpretation is the \emph{strong} reading for sentences involving positive adjectives, and the \emph{weak} interpretation for sentences involving negative adjectives. This entailment pattern arises in a systematic way for different pairs of antonyms, such as expensive/cheap and noisy/quiet (as long as they give rise to the ambiguity). 
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{c|c|c}
+& \textsc{Positive adjective} & \textsc{Negative adjective} \\
+\hline
+& \textit{The bags are heavy} & \textit{The bags are light.}\\
+Collective reading & Weak & Strong \\
+Distributive reading & Strong & Weak\\
+\end{tabular}
+\caption[]{Entailment relation between the readings}
+\label{table.readings.polarity}
+\end{table}
+
+\subsection{Experimental literature and the covariation issue}
+The non-distributive/distributive distinction has been extensively explored in psycholinguistics, from both processing and developmental perspectives (CITE). 
+While different experimental settings and stimuli have been used in the literature, most studies have been exclusively focused on ambiguities arising from mixed transitive predicates. 
+In these studies, the availability of distributive inferences has been mostly tested by presenting ambiguous sentences in `covariation' scenarios such as the one described in \ref{ex.transitive.mixed.paintB} (CITE). 
+\addMM{As observed in the previous section, these situations are the only ones where distributive readings can be fully isolated (i.e. they make distributive readings true and non-distributive readings false).}
+
+This approach, however, has a main drawback. The systematic use of covariation scenarios to instantiate distributive readings might cause participants to develop verification strategies that are not inherent to distributivity. 
+For example, in order to verify whether the distributive reading of \ref{ex.transitive.mixed.paint} is true or false in situation \ref{ex.transitive.mixed.paintB}, one could simply check whether there is covariation of sandcastles per girl. 
+In an experimental context, after several repetitions, checking for a ``number mismatch'' between the sentence and the given scenario might become the strategy to judge the sentence as being true in the situation. 
+As a result, the processing pattern that many studies have attributed to distributive interpretations might be, in fact, characteristic of verification strategies based on covariation, and not of distributivity \textit{per se}. 
+
+Importantly, the use of covariation strategies could also influence the interpretation of Maldonado et al' priming results. 
+Maldonado et al used a sentence-picture matching task to test whether the distributive/non-distributive contrast of sentences such as \ref{Maldonado2017.ex} could give rise to priming effects. 
+
+\ex. Two squares are connected to three circles. \label{Maldonado2017.ex}
+
+%
+Participants were forced to derive either a distributive or a non-distributive reading of the ambiguous sentence on a \emph{prime} trial; and they could then select their preferred interpretation on a subsequent \emph{target}. 
+%
+Crucially, distributive readings were always instantiated by a ``covariation'' picture, whereas non-distributive/cumulative interpretations involved a non-covariation scenario.  An illustration of the stimuli in Maldonado et al (2017) is given in Figure \ref{fig:example.maldonado2017}. 
+
+
+\begin{figure}[htbp]
+\begin{center}
+ \includegraphics[width=.6\textwidth]{tablealternative.pdf}
+\caption{Stimuli in Maldonado et al 2017. In \emph{prime} trials, only one of the images was compatible with the sentence under one of its possible readings, whereas on subsequent \emph{target} trials, both images were compatible with the sentence under each of its readings.}
+\label{fig:example.maldonado2017}
+\end{center}
+\end{figure}
+
+The authors found that, after being biased towards one of the two readings in a prime trial, subjects were more likely to access the same interpretation in the subsequent target. This effect, however, was asymmetric: only distributive primes had a significant impact on the following target, whereas non-distributive/cumulative primes behave as baselines. From these results, the authors concluded that semantic priming was at play, and they explained the asymmetric effect as specific priming of the mechanism responsable for distributive interpretations (i.e. the insertion of the $D$ operator).
+
+%%
+However, in light of the covariation issue discussed above, this pattern of results could also be partially explained as priming of a verification strategy. When participants are forced to access a distributive interpretation in primes, a verification strategy consisting on checking covariation of the objects named in the sentence might be primed, giving rise to the attested priming effect. The absence of non-distributive/cumulative priming can be then explained by the fact that no specific verification strategy is at play in cases of non-covariation. 
+
+The origin of this potential confound lies on the use of transitive mixed predicates, and cannot be easily avoided without changing the predicate. In this study, we aim to find a processing signature of distributivity in absence of covariation. We will address this issue by investigating the distributive/collective ambiguity of adjectival predicates. 
+
+
+
+\end{document}

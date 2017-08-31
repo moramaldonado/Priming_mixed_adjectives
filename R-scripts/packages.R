@@ -9,6 +9,98 @@ require(reshape2)
 #MASS and lmer
 require(lme4)
 
+############################
+# Parsimonious mixed models
+############################
+
+# Implements a basic version of Bates et al (2015) parsimonious models
+# Expects models with maximal RE structure (in the sense of Barr et al (2013)) and does the following:
+# 	1) runs PCA on each RE structure,
+# 	2) eliminates components with variance below 'tol', relative to the main component,
+# 	3) checks that no remaining component is under 'tol' (the updated model does not have correlations between RE components), otherwise eliminates them.
+
+# The function seems to work well even when the input model had not converged.
+
+# The function should work with glmer as well (only tested with family=binomial(link="logit") though)
+
+# By default, the output is not comparable with the original model because they are not fitted on the same data (i.e., anova(model, parsimonious(model)) will return an error). Use option "comparable=TRUE" to force the new model to be comparable with the original model. This will define the factors used in the new RE structures locally. Note that by doing so, the new model will not be comparable with models obtained by further update. If you wish to compare the new model to further updated models but set the option comparable to TRUE, you must refit the new model on its own model.frame first (i.e., run "update(new_model,data=model.frame(new_model))").
+
+require(lme4)
+require(RePsychLing)
+
+
+parsimonious<-function(mod,tol=1e-3,comparable=F){
+  RE<-names(ranef(mod))
+  dat.name<-getCall(mod)[[3]]
+  newdat<-model.frame(mod)
+  if (comparable & length(dat.name)>1) {
+    warning("The data of the model is given by a complex expression. This is not compatible with option 'comparable=T'. Reverting to default behavior 'comparable=F'")
+    comparable<-F
+  }
+  # If the RE structure is already minimal, do nothing:
+  if (length(RE)==length(getME(mod,"Ztlist"))) {return(mod)}
+  else{
+    # Get the formula without the RE:
+    trms<-attributes(terms(formula(mod)))$term.labels
+    sf<-paste(deparse(formula(mod)),collapse="")
+    sf<-gsub("[[:space:]]+"," ",sf)
+    for(j in grep("\\|+",trms)){
+      sf<-gsub(trms[j],"",x=sf,fixed=T)
+    }
+    sf<-gsub("\\+ \\(([[:space:]]|\\(|\\)|\\+)*\\)","",sf)
+    ff<-as.formula(sf)
+    for(i in 1:length(RE)){			# Usually, 1 for subjects, 2 for items
+      rot<-rePCA(mod)[[RE[i]]]$rotation
+      # Check if this RE is not already minimal:
+      if (length(rot)>1){
+        mat<-do.call(cbind,getME(mod,"mmList")[grep(paste("| ",RE[i],sep=""),names(getME(mod,"mmList")),fixed=T)])
+        rmat<-data.frame(mat%*%rot)
+        names(rmat)<-paste(RE[i],names(rmat),sep='_')
+        if (comparable & length(dat.name)==1){
+          assign(as.character(dat.name),cbind(eval(dat.name),rmat))
+        } else {
+          newdat<-cbind(newdat,rmat)
+        }
+        
+        nsdevs<-rePCA(mod)[[i]]$sdev/rePCA(mod)[[i]]$sdev[1]
+        # Decide how many components we should keep:
+        keep<-length(nsdevs[nsdevs>tol])
+        # Add the new RE to the formula:
+        ff<-update(ff,as.formula(paste(".~.+(0+",paste(names(rmat)[1:keep],collapse="+ "),ifelse(keep==1,"|","||"),RE[i],")")))
+      }
+      else{
+        # If RE is minimal, reproduce the original with compatible names
+        assign(paste(RE[i],"_X1",sep=""), 1)
+        if (comparable & length(dat.name)==1){
+          eval(parse(text=paste(as.character(dat.name),"<-cbind(",as.character(dat.name),",",RE[i],"_X1)",sep="")))
+        } else {
+          eval(parse(text=paste("newdat <-cbind(newdat,",RE[i],"_X1)",sep="")))
+        }
+        ff<-update(ff,as.formula(paste(".~.+(0+", paste(RE[i],"_X1",sep=""),"|",RE[i],")")))	
+      }			
+    }
+    if (comparable& length(dat.name)==1) {
+      pmod<-update(mod,ff)
+    } else {
+      pmod<-update(mod,ff,data=newdat)
+    }
+    # Clean up remaining components (some may end up under tol after removing correlations)
+    ff2<-formula(pmod)
+    changes<-F
+    for(i in 1:length(RE)){
+      k<-which(rePCA(pmod)[[RE[i]]]$sdev<tol*rePCA(pmod)[[RE[i]]]$sdev[1])
+      ff2<-update(ff2,as.formula(paste(c("~.",paste(RE[i],"_X",k,"|",RE[i],")",sep="")),collapse="-(0+")))
+      changes<-ifelse(length(k)>0,T,changes)
+    }
+    if(ff2==ff|!changes){
+      return(pmod)
+    }
+    else{
+      return(update(pmod,ff2))
+    }
+  }
+}
+
 #LDA
 #require(lda)
 
@@ -309,7 +401,7 @@ read.ibex <-
 #Plots
 
 
-my_colours <- c("#FF3333", "#3333FF")
+my_colours <- c("#0000CC", "#CC0000")
 
 theme_mm <- theme_grey() +
   theme(

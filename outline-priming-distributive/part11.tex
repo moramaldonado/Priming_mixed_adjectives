@@ -1,0 +1,48 @@
+
+\subsection{Semantic background}
+
+In current approaches to plurality, non-distributive or collective interpretations for sentences such as X and X are thought to be obtained by default: they are result of just applying the plural subject to the mixed predicate. 
+
+\ex. The girls built a sand castle.\\
+    $\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(\iota x.\mathit{girls}'(x))$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(\iota x.\mathit{girls}'(x),y)$
+
+Conversely, distributive readings are considered to arise from the presence of a (optional) covert distributivity operator $D$ in the semantic representation, whose meaning roughly corresponds to that of adverbial \textit{each} in English (Link 1991, Champollion). 
+
+\ex.
+\a.  $ \llbracket D \rrbracket = \lambda P.  \ \lambda x \ \forall y[\ y \preceq_{AT} x \rightarrow P(y)]$ \\
+In words: The $D$ operator takes a predicate $P$ and returns a new predicate that is true of a plurality exactly if $P$ is true of all the atomic individuals that make up the plurality. 
+\b. The girls $D$ built a sand castle.\label{ex.transitive.mixed.distributive} \\ 
+    $D(\lambda x.\exists y.\mathit{sandcastle}'(y) \wedge \textit{built}'(x,y))(\iota x.\mathit{girls}'(x))$\\
+    $\forall z . (z\preceq_{AT}\iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(z,y)$
+
+When the $D$ operator is applied to a `mixed' predicate, the distributive entailment is guaranteed. Moreover, the universal quantification introduced by $D$ will interact with any variables or operator contained in the predicate. In \ref{ex.transitive.mixed.distributive}, the predicate is the verb phrase \textit{built a sandcastle}. Since the indefinite object (\textit{a sandcastle}) is in the scope of the distributivity operator, the sandcastle is allowed to covary with each member of the subject (i.e. with each girl). The covariation is therefore the product of the scope interaction between the $D$ operator and the indefinite. 
+
+In the specific case of a predicate of creation such as \textit{built a sandcastle}, the distributive reading will always result on covariation: since the same castle cannot be built more than once, if there is more than one building event, there will also be more than one castle. As a result, under their distributive reading, \ref{ex.transitive.mixed.distributive} will \emph{always} describe a scenario where there is covariation of castles per girl. 
+
+However, \textbf{covariation is not inherent to distributivity}. This is not only true for intransitive `mixed' predicates such as `heavy' (where there is no object to covary) but also for some transitive predicates. For instance, the sentence in \ref{ex.transitive.mixed.paint} is compatible not with two but with three different kind of scenarios, illustrated in a-c. 
+
+\ex. The two girls painted a sand castle. \label{ex.transitive.mixed.paint}
+\a. The two girls painted a single sand castle together without each separately doing so. 
+\b.  The two girls painted each a different sand castle .
+\c. The two girls painted each the same sand castle .
+
+\ex. \label{ex.transitive.mixed.paint.LF}
+\a. The girls painted a sand castle.\\
+    %$\lambda x.\exists y.\mathit{sand castle}'(y) \wedge \textit{built}'(x,y)(Mora\oplus Milica)$\\
+        $\exists y.\mathit{sandcastle}'(y) \wedge \textit{painted}'(\iota x.\mathit{girls}'(x), y)$
+\b. The girls $D$ painted a sand castle.\\
+    $\forall z . (z\preceq_{AT} \iota x.\mathit{girls}'(x)) \rightarrow \exists y.\mathit{sand castle}'(y) \wedge \textit{painted}'(z,y)$
+    
+
+Assuming that this sentence is compatible with two alternative semantic representations 
+(with and without $D$, see \ref{ex.transitive.mixed.paint.LF}), one can easily notice that the scenario in (a) clearly makes the non-distributive reading true, whereas the scenario in (b) clearly makes the distributive reading true.
+
+What about the scenario in (c)? 
+Since the distributive reading in \ref{ex.transitive.mixed.paint.LF}b does not impose covariation, the scenario in (c) will make this reading true. Moreover, it will also make true a reading where the indefinite takes wide scope above the $D$ operator. 
+ \\  
+Assuming that predicates are lexically cumulative (Scha 1991, Kratzer 2007, Champollion diss), whenever the predicate is true of individuals, it's also true of the plurality made up of them. The scenario in (c) will make the non-distributive reading in \ref{ex.transitive.mixed.paint.LF}a true.
+
+
+
+
