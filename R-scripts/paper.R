@@ -38,7 +38,7 @@ ggplot(both_controls.overall, aes(x=Condition, y=mean, fill=Condition)) +
                    labels=c("Strong \n Collective", "Strong \n Distributive")) +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) + facet_grid(~Experiment)
 
-ggsave('Both-Controls.png', path='Paper/fig/', width=4, height = 4)
+ggsave('Both-Controls.png', path='Paper_Priming_Adjectives/fig/', width=4, height = 4)
 
 
 
@@ -68,7 +68,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
                     labels=c("Collective", "Distributive")) +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) 
 
-  ggsave('Targets-Experiment1.png', path='Paper/fig/', width=5, height = 4)
+  ggsave('Targets-Experiment1.png', path='Paper_Priming_Adjectives/fig/', width=5, height = 4)
 
 
     ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
@@ -84,7 +84,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
     geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
     facet_grid(~HOI, scale='free_x')
 
-    ggsave('Targets-Experiment2.png', path='Paper/fig/', width=7, height = 4)
+    ggsave('Targets-Experiment2.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
     
 
 # Matching predicates
@@ -109,7 +109,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
   facet_wrap(~Predicate_scale)
 
-ggsave('Targets-Experiment1-predicates.png', path='Paper/fig/', width=7, height = 4)
+ggsave('Targets-Experiment1-predicates.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
 
 
 ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
@@ -125,7 +125,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prim
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
   facet_wrap(~Predicate_scale)
 
-ggsave('Targets-Experiment2-predicates.png', path='Paper/fig/', width=11, height = 4)
+ggsave('Targets-Experiment2-predicates.png', path='Paper_Priming_Adjectives/fig/', width=11, height = 4)
 
 
 
@@ -151,7 +151,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
                     labels=c("Collective", "Distributive")) +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) 
 
-ggsave('Targets-Experiment1-DR.png', path='Paper/fig/', width=5, height = 4)
+ggsave('Targets-Experiment1-DR.png', path='Paper_Priming_Adjectives/fig/', width=5, height = 4)
 
 
 ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
@@ -167,7 +167,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prim
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
   facet_grid(~HOI, scale='free_x')
 
-ggsave('Targets-Experiment2-DR.png', path='Paper/fig/', width=7, height = 4)
+ggsave('Targets-Experiment2-DR.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
 
 
 #Matching predicates
@@ -192,7 +192,7 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
   facet_wrap(~Predicate_scale)
 
-ggsave('Targets-Experiment1-predicates-DR.png', path='Paper/fig/', width=7, height = 4)
+ggsave('Targets-Experiment1-predicates-DR.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
 
 
 ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
@@ -208,6 +208,6 @@ ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prim
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
   facet_wrap(~Predicate_scale)
 
-ggsave('Targets-Experiment2-predicates-DR.png', path='Paper/fig/', width=11, height = 4)
+ggsave('Targets-Experiment2-predicates-DR.png', path='Paper_Priming_Adjectives/fig/', width=11, height = 4)
 
 
