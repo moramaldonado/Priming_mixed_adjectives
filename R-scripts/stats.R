@@ -96,8 +96,8 @@ anova(model.full.exp2, model.noint.exp2)
 # 1. Change the dependent measure such that we will be comparing proportion of matching responses
 # 2. Look for an interaction
 
-
-x <-  ddply(mydata.experiment2,  c("Condition.Prime", "HOI"), 
+#just to have a rough idea...
+means <-  ddply(mydata.experiment2,  c("Condition.Prime", "HOI"), 
                                         function(mydata.experiment2)c(mean=mean(mydata.experiment2$Proportion.Matching, na.rm=T)))
 
 
