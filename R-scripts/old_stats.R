@@ -139,5 +139,36 @@ model.noint.CvsDef  <- glmer(Blur.Selection~Condition.Prime+Condition.Target +
 anova(model.full.CvsDef ,model.noint.CvsDef)
 
 
+## (Result 7) 
 
+## First try
+## Merge baselines into a single level
+## Model 1: Assuming that each condition has a different influence in the amount of distributive responses
+T1 <- factor(mydata.experiment2$Condition.Prime=="D")
+T2 <- factor(mydata.experiment2$Condition.Prime=="C")
+T3 <- factor(mydata.experiment2$Condition.Prime=="Baseline-only"|mydata.experiment2$Condition.Prime=="Baseline-the")
+
+m1 <- glmer(Distributive.response ~ 0 + T1 + T2 + (1|subject), data=mydata.experiment2, family=binomial) 
+
+## Model 2: Assume that each condition has the same influence (but on different directions) in the amount of distributive responses
+T4 <- mydata.experiment2$Condition.Prime
+levels(T4) <- c('Baseline', "Baseline", 'C', 'D') 
+
+mat = matrix(c(0,1,0,0,0,-1), ncol = 2)
+contrasts(T4) <- mat
+levels(T4) <- c(0,1,-1) 
+T4 <- as.numeric(as.character(T4))
+m2 <- glmer(Distributive.response ~ 0 + T4 + (1|subject), data=mydata.experiment2, family=binomial) 
+
+anova(m1,m2)
+
+
+### Second attempt: function that calculates R^2 (based on https://jonlefcheck.net/2013/03/13/r2-for-linear-mixed-effects-models/)
+
+## Creates a lists of models and calculates R2 for each model...
+list.models.C <- list(model.full.C.primes,model.null.C.primes)
+sem.model.fits(list.models.C)
+
+list.models.D <- list(model.full.D.primes,model.null.D.primes)
+sem.model.fits(list.models.D)
 

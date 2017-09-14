@@ -11,8 +11,6 @@ accuracy_primes.overall <-  ddply(accuracy_primes,  c("Condition.Prime.Re", "Exp
                                   function(accuracy_primes)c(mean=mean(accuracy_primes$mean, na.rm=T), se=se(accuracy_primes$mean, na.rm=T)))
 
 
-
-
 # CONTROL RESULTS ####
 accuracy_controls <- ddply(subset(control, Condition != 'Both-C' & Condition!='Both-D'), c("subject","Condition", "Experiment"), 
                            function(control)c(mean=mean(control$Selection.Blur_Both, na.rm=T)))
@@ -43,103 +41,18 @@ ggsave('Both-Controls.png', path='Paper_Priming_Adjectives/fig/', width=4, heigh
 
 
 
-# TARGET RESULTS ####
-
-ggplot(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), aes(x=Condition.Target, y=Blur.Selection, color=Condition.Prime)) + geom_jitter() + facet_grid(.~list)
-targets <- subset(experimental_items, element.number == 'Target')
-accurate <- subset(experimental_items, element.number == 'Target' & Accuracy==TRUE)
-
-results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "HOI", "Experiment"), 
-                         function(experimental_items)c(mean=mean(experimental_items$Blur.Selection, na.rm=T)))
-
-results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "HOI", "Experiment"), 
-                                  function(results_targets)c(mean=mean(results_targets$mean, na.rm=T), se=se(results_targets$mean, na.rm=T)))
-
-
-ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
-  scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
-  geom_bar(colour="black",position='dodge', stat="identity") +
-  ylab('Proportion of strong responses')+
-  scale_x_discrete(breaks=c("C", "D"),
-                   labels=c("After \n Collective Prime", "After \n Distributive Prime")) +
-  scale_fill_manual(values=my_colours,                       
-                    name="Target Condition",
-                    breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
-                    labels=c("Collective", "Distributive")) +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) 
-
-  ggsave('Targets-Experiment1.png', path='Paper_Priming_Adjectives/fig/', width=5, height = 4)
-
-
-    ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
-    scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
-    geom_bar(colour="black",position='dodge', stat="identity") +
-    ylab('Proportion of strong responses')+
-    scale_x_discrete(breaks=c('Baseline-only', 'Baseline-the', "C", "D"),
-                     labels=c("After \n D-Baseline", "After \n C-Baseline", "After \n Collective Prime", "After \n Distributive Prime")) +
-    scale_fill_manual(values=my_colours,                       
-                      name="Target Condition",
-                      breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
-                      labels=c("Collective", "Distributive")) +
-    geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
-    facet_grid(~HOI, scale='free_x')
-
-    ggsave('Targets-Experiment2.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
-    
-
-# Matching predicates
-results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "Predicate_scale", "Experiment"), 
-                         function(experimental_items)c(mean=mean(experimental_items$Blur.Selection, na.rm=T)))
-
-results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "Predicate_scale", "Experiment"), 
-                                  function(results_targets)c(mean=mean(results_targets$mean, na.rm=T), se=se(results_targets$mean, na.rm=T)))
-
-levels(results_targets.overall$Predicate_scale) <- c('Matching dimension', 'Mismatching dimension') 
-
-ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
-  scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
-  geom_bar(colour="black",position='dodge', stat="identity") +
-  ylab('Proportion of strong responses')+
-  scale_x_discrete(breaks=c("C", "D"),
-                   labels=c("After \n Collective Prime", "After \n Distributive Prime")) +
-  scale_fill_manual(values=my_colours,                       
-                    name="Target Condition",
-                    breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
-                    labels=c("Collective", "Distributive")) +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
-  facet_wrap(~Predicate_scale)
-
-ggsave('Targets-Experiment1-predicates.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
-
-
-ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
-  scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
-  geom_bar(colour="black",position='dodge', stat="identity") +
-  ylab('Proportion of strong responses')+
-  scale_x_discrete(breaks=c('Baseline-only', 'Baseline-the', "C", "D"),
-                   labels=c("After \n D-Baseline", "After \n C-Baseline", "After \n Collective Prime", "After \n Distributive Prime")) +
-  scale_fill_manual(values=my_colours,                       
-                    name="Target Condition",
-                    breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
-                    labels=c("Collective", "Distributive")) +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
-  facet_wrap(~Predicate_scale)
-
-ggsave('Targets-Experiment2-predicates.png', path='Paper_Priming_Adjectives/fig/', width=11, height = 4)
-
-
-
 
 ## TARGET RESULTS (quantifing distributive responses instead of blur/strong responses)####
 
-results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "HOI", "Experiment"), 
+# Experiment 1 
+results_targets_exp1 <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment=='Exp1'), c("subject","Condition.Prime", "Condition.Target"), 
                          function(experimental_items)c(mean=mean(experimental_items$Distributive.response, na.rm=T)))
 
-results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "HOI", "Experiment"), 
-                                  function(results_targets)c(mean=mean(results_targets$mean, na.rm=T), se=se(results_targets$mean, na.rm=T)))
+results_targets_exp1.overall <-  ddply(results_targets_exp1,  c("Condition.Prime", "Condition.Target"), 
+                                  function(results_targets_exp1)c(mean=mean(results_targets_exp1$mean, na.rm=T), se=se(results_targets_exp1$mean, na.rm=T)))
 
 
-ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
+ggplot(results_targets_exp1.overall, aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
   scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
   geom_bar(colour="black",position='dodge', stat="identity") +
   ylab('Proportion of Distributive responses')+
@@ -150,36 +63,19 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
                     breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
                     labels=c("Collective", "Distributive")) +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) 
-
 ggsave('Targets-Experiment1-DR.png', path='Paper_Priming_Adjectives/fig/', width=5, height = 4)
 
 
-ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
-  scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
-  geom_bar(colour="black",position='dodge', stat="identity") +
-  ylab('Proportion of Distributive responses')+
-  scale_x_discrete(breaks=c('Baseline-only', 'Baseline-the', "C", "D"),
-                   labels=c("After \n D-Baseline", "After \n C-Baseline", "After \n Collective Prime", "After \n Distributive Prime")) +
-  scale_fill_manual(values=my_colours,                       
-                    name="Target Condition",
-                    breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
-                    labels=c("Collective", "Distributive")) +
-  geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
-  facet_grid(~HOI, scale='free_x')
-
-ggsave('Targets-Experiment2-DR.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
-
-
-#Matching predicates
-results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE), c("subject","Condition.Prime", "Condition.Target", "Predicate_scale", "Experiment"), 
+## Matching vs. Mismatching dimension
+results_targets <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment=='Exp1'), c("subject","Condition.Prime", "Condition.Target", "Predicate_scale", "Experiment"), 
                          function(experimental_items)c(mean=mean(experimental_items$Distributive.response, na.rm=T)))
 
-results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "Predicate_scale", "Experiment"), 
+results_targets.overall <-  ddply(results_targets,  c("Condition.Prime", "Condition.Target", "Predicate_scale"), 
                                   function(results_targets)c(mean=mean(results_targets$mean, na.rm=T), se=se(results_targets$mean, na.rm=T)))
 
 levels(results_targets.overall$Predicate_scale) <- c('Matching dimension', 'Mismatching dimension') 
 
-ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
+ggplot(results_targets.overall, aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
   scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
   geom_bar(colour="black",position='dodge', stat="identity") +
   ylab('Proportion of \'blur\' selection')+
@@ -195,10 +91,19 @@ ggplot(subset(results_targets.overall, Experiment=='Exp1'), aes(x=Condition.Prim
 ggsave('Targets-Experiment1-predicates-DR.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
 
 
-ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
+# Experiment 2
+
+results_targets_exp2 <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment=='Exp2'), c("subject","Condition.Prime", "Condition.Target", "HOI"), 
+                              function(experimental_items)c(mean=mean(experimental_items$Distributive.response, na.rm=T)))
+
+results_targets_exp2.overall <-  ddply(results_targets_exp2,  c("Condition.Prime", "Condition.Target", "HOI"), 
+                                       function(results_targets_exp2)c(mean=mean(results_targets_exp2$mean, na.rm=T), se=se(results_targets_exp2$mean, na.rm=T)))
+
+
+ggplot(results_targets_exp2.overall, aes(x=Condition.Prime, y=mean, fill=Condition.Target)) +
   scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
   geom_bar(colour="black",position='dodge', stat="identity") +
-  ylab('Proportion of \'blur\' selection')+
+  ylab('Proportion of Distributive responses')+
   scale_x_discrete(breaks=c('Baseline-only', 'Baseline-the', "C", "D"),
                    labels=c("After \n D-Baseline", "After \n C-Baseline", "After \n Collective Prime", "After \n Distributive Prime")) +
   scale_fill_manual(values=my_colours,                       
@@ -206,8 +111,33 @@ ggplot(subset(results_targets.overall, Experiment=='Exp2'), aes(x=Condition.Prim
                     breaks=c("C/Pos/Heavy-type", "D/Neg/Light-type" ),
                     labels=c("Collective", "Distributive")) +
   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
-  facet_wrap(~Predicate_scale)
+  facet_grid(~HOI, scale='free_x')
 
-ggsave('Targets-Experiment2-predicates-DR.png', path='Paper_Priming_Adjectives/fig/', width=11, height = 4)
+ggsave('Targets-Experiment2-DR.png', path='Paper_Priming_Adjectives/fig/', width=7, height = 4)
 
+
+
+##Last figure for asymmetry
+
+
+results_targets_simpl <- ddply(subset(experimental_items, element.number == 'Target' & Accuracy==TRUE & Experiment=='Exp2'), c("subject","Condition.Prime", "HOI"), 
+                         function(experimental_items)c(mean=mean(experimental_items$Proportion.Matching, na.rm=T)))
+
+
+levels(results_targets_simpl$Condition.Prime) <- c('Distributive','Collective','Collective','Distributive')
+
+#results_targets_simpl$mean <- if_else(results_targets_simpl$Condition.Prime=='Collective', 1-results_targets_simpl$mean, results_targets_simpl$mean)
+
+
+results_targets.overall_simpl <-  ddply(results_targets_simpl,  c("Condition.Prime", "HOI"), 
+                                  function(results_targets_simpl)c(mean=mean(results_targets_simpl$mean, na.rm=T), se=se(results_targets_simpl$mean, na.rm=T)))
+
+
+ggplot(results_targets.overall_simpl, aes(x=HOI, y=mean)) +
+  scale_y_continuous(breaks=c(0,.25,.5,.75,1), limits=c(0,1)) +
+  geom_bar(colour="black",position='dodge', stat="identity") +
+  ylab('Proportion of \'matching\' responses')+
+   geom_errorbar(aes(ymin=mean-se, ymax=mean+se), width=.2, position=position_dodge(.9)) +
+  facet_wrap(~Condition.Prime)
+ggsave('Targets-Experiment2-Simplified-DR.png', path='Paper_Priming_Adjectives/fig/', width=11, height = 4)
 

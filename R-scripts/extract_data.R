@@ -175,6 +175,15 @@ control$Experiment <- relevel(control$Experiment, "Exp1")
 
 summary(control)
 
+#Proportion matching
+
+experimental_items$Proportion.Matching <- if_else(experimental_items$Condition.Prime=='C' | experimental_items$Condition.Prime=='Baseline-the' , !(experimental_items$Distributive.response), experimental_items$Distributive.response)
+
+
+
+
+
+
 #saving results
 write.csv(control, file = "controls.csv", row.names=FALSE)
 write.csv(experimental_items, file = "experimental_items.csv", row.names=FALSE)
